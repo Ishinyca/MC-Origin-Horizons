@@ -1,2 +1,2 @@
-# Shiny-MC-Adventure
+# MC Origin Horizons
 An upcoming modpack by ishinyca.
