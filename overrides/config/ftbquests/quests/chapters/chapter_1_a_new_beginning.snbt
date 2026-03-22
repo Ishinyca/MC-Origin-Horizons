@@ -4,6 +4,24 @@
 	filename: "chapter_1_a_new_beginning"
 	group: "33F828F57A04EB35"
 	id: "52805200DB691919"
+	images: [
+		{
+			height: 3.0d
+			image: "twilightforest:block/twilight_oak_sapling"
+			rotation: -10.0d
+			width: 3.0d
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			height: 3.0d
+			image: "twilightforest:block/twilight_oak_sapling"
+			rotation: 10.0d
+			width: 3.0d
+			x: 5.5d
+			y: -1.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -221,6 +239,8 @@
 		{
 			dependencies: ["772D3B613376231C"]
 			id: "4BD4592C741FC0F9"
+			shape: "none"
+			size: 3.0d
 			tasks: [{
 				advancement: "twilightforest:root"
 				criterion: ""
@@ -228,7 +248,7 @@
 				type: "advancement"
 			}]
 			x: 4.0d
-			y: -1.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [

@@ -33,6 +33,7 @@
 	chapter_group.69C66C6408A97599.title: "Progression"
 	chapter_group.6FCD6CD6E3B683F5.title: "Achievements"
 	quest.02CB075775B6AD52.title: "Minishroom"
+	quest.039D94ACF27C120F.title: "Cold Eye"
 	quest.043573ED949BECB2.quest_desc: ["Welcome to the Stoage chapter! There are tons of storage options that are available in this modpack."]
 	quest.0D95EEE56AB91A43.quest_desc: ["&lOops. Looks like you died somehow.&r"]
 	quest.0D95EEE56AB91A43.title: "Died to Skill Issue"
@@ -49,6 +50,7 @@
 	quest.2DCCC1C463471165.quest_desc: ["You only need to defeat 12 of the 16 bosses to enter The End. If you ever lose an eye, it will cost you 10 levels to replace it."]
 	quest.2FB0C3CFF2700DB8.quest_desc: ["Better defense than diamond. A note, netherite armor will be used for a lot of the better armor later in the pack"]
 	quest.2FB0C3CFF2700DB8.title: "&cBasic Survival Part III"
+	quest.2FFC5F0F052AE543.title: "Defeat The Ancient Reminent"
 	quest.314F27CFAB6AC6C3.title: "Magical Map of the Twilight Forest"
 	quest.321BE79B988D7AC1.quest_desc: ["Hello there friend. This is Shiny's Awesome Modpack!"]
 	quest.321BE79B988D7AC1.title: "Welcome"
@@ -117,6 +119,7 @@
 	task.50449755AF28A897.title: "Defeat The Leviathan"
 	task.5352792BF48E7A96.title: "How to Visit the Nether"
 	task.55573B0B6840B2AF.title: "Beat the Silver Dungeon"
+	task.59C78E5C9CF9B249.title: "Bosses'Rising"
 	task.5C3E7D34292557AA.title: "Visit the End"
 	task.5EDEAA9228995D2C.title: "Naga Courtyard"
 	task.5F0B4D257BF96339.title: "Find the Bastion"
@@ -131,6 +134,8 @@
 	task.76CD659AADFAF38A.title: "Bounce on the Blue Aercloud"
 	task.77138AB78CE48083.title: "... Until They Hatch!"
 	task.779DAFBBEB892F7B.title: "Visit Twilight Forest"
+	task.7C44BC91C7F90327.title: "Vanilla"
+	task.7DEB0B46AE68E657.title: "Defeat the Sandworm"
 	task.7E2AEB1B8E7871D2.title: "Knight's Stronghold"
 	task.7E48EC4B7DFB8318.title: "Visit the Otherside"
 }

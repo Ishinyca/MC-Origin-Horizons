@@ -49,7 +49,19 @@ const recipeIdsToRemove = [
 	'mekanism:mekasuit_helmet',
 	'mekanism:mekasuit_bodyarmor',
 	'mekanism:mekasuit_pants',
-	'mekanism:mekasuit_boots'
+	'mekanism:mekasuit_boots',
+	'mekanism:teleportation_core',
+	'mekanism:quantum_entangloporter',
+
+	// Cataclysm Eyes
+	'cataclysm:mech_eye',
+	'cataclysm:flame_eye',
+	//'cataclysm:void_eye',
+	'cataclysm:monstrous_eye',
+	'cataclysm:abyss_eye',
+	'cataclysm:desert_eye',
+	'cataclysm:cursed_eye',
+	'cataclysm:storm_eye'
 ]
 
 const recipeOutputToRemove = [

@@ -7,10 +7,33 @@
 		id: "pastel:perturbed_eye"
 	}
 	id: "4D493540DD99DAC8"
+	images: [
+		{
+			height: 13.0d
+			image: "ftbquests:textures/bosses_book_layout.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 12.0d
+			image: "ftbquests:textures/bosses_logo.png"
+			order: -1
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.0d
+			y: -7.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["13CEC72E9FC3F547"]
+			icon: {
+				id: "block_factorys_bosses:infernal_dragon_spawn_egg"
+			}
 			id: "40D51FD3C3EA83C5"
 			tasks: [
 				{
@@ -25,10 +48,14 @@
 					value: 1L
 				}
 			]
-			x: -1.5d
-			y: 1.0d
+			x: -5.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["13CEC72E9FC3F547"]
+			icon: {
+				id: "block_factorys_bosses:yeti_spawn_egg"
+			}
 			id: "4C7E4E67A85038A3"
 			tasks: [
 				{
@@ -43,10 +70,14 @@
 					value: 1L
 				}
 			]
-			x: -1.5d
-			y: 2.0d
+			x: -6.5d
+			y: 2.5d
 		}
 		{
+			dependencies: ["13CEC72E9FC3F547"]
+			icon: {
+				id: "block_factorys_bosses:sandworm_spawn_egg"
+			}
 			id: "60F9C0D21C45BD86"
 			tasks: [
 				{
@@ -61,10 +92,14 @@
 					value: 1L
 				}
 			]
-			x: -1.5d
-			y: 0.0d
+			x: -5.5d
+			y: 2.5d
 		}
 		{
+			dependencies: ["13CEC72E9FC3F547"]
+			icon: {
+				id: "block_factorys_bosses:underworld_knight_spawn_egg"
+			}
 			id: "1C0005309112971E"
 			tasks: [
 				{
@@ -79,21 +114,43 @@
 					value: 1L
 				}
 			]
-			x: -1.5d
-			y: -1.0d
+			x: -6.5d
+			y: 1.5d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "jei:textures/jei/atlas/gui/icons/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "2DCCC1C463471165"
 			optional: true
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "62C0D32D3346CF54"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: -3.0d
+			x: 3.7d
+			y: -0.9d
 		}
 		{
+			icon: {
+				id: "cataclysm:ignis_spawn_egg"
+			}
+			icon_scale: 1.5d
 			id: "56CC4D63313E1E86"
+			rewards: [{
+				id: "5870CF1F4569BC14"
+				item: {
+					count: 1
+					id: "endrem:nether_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.65d
 			tasks: [
 				{
 					id: "1217EE40F7BEC0A0"
@@ -107,11 +164,25 @@
 					value: 1L
 				}
 			]
-			x: 1.5d
-			y: 0.0d
+			x: 1.9d
+			y: -3.2d
 		}
 		{
+			icon: {
+				id: "cataclysm:ancient_remnant_spawn_egg"
+			}
+			icon_scale: 1.5d
 			id: "2FFC5F0F052AE543"
+			rewards: [{
+				id: "72667E350B42B79C"
+				item: {
+					count: 1
+					id: "endrem:cursed_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.75d
 			tasks: [
 				{
 					id: "1593670D9FF02FFF"
@@ -125,11 +196,25 @@
 					value: 1L
 				}
 			]
-			x: 6.5d
-			y: 0.0d
+			x: 6.52d
+			y: 0.5d
 		}
 		{
+			icon: {
+				id: "cataclysm:the_leviathan_spawn_egg"
+			}
+			icon_scale: 1.5d
 			id: "70C06996DE97A878"
+			rewards: [{
+				id: "034FA561F612B7E9"
+				item: {
+					count: 1
+					id: "endrem:black_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.65d
 			tasks: [
 				{
 					id: "7153555F1C499E9D"
@@ -143,11 +228,25 @@
 					value: 1L
 				}
 			]
-			x: 3.5d
-			y: 0.0d
+			x: 5.4d
+			y: -3.3000000000000003d
 		}
 		{
+			icon: {
+				id: "cataclysm:the_harbinger_spawn_egg"
+			}
+			icon_scale: 1.5d
 			id: "5426A5787A356FF0"
+			rewards: [{
+				id: "69407BE7654926AE"
+				item: {
+					count: 1
+					id: "endrem:guardian_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.65d
 			tasks: [
 				{
 					id: "762E414F9EA5643A"
@@ -161,30 +260,55 @@
 					value: 1L
 				}
 			]
-			x: 2.5d
-			y: 0.0d
+			x: 3.695d
+			y: -3.69d
 		}
 		{
+			icon: {
+				id: "cataclysm:netherite_monstrosity_spawn_egg"
+			}
+			icon_scale: 1.5d
 			id: "76A2530BA1DB6D5D"
+			rewards: [{
+				id: "0E436A8FFE8445CE"
+				item: {
+					count: 1
+					id: "endrem:evil_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.75d
 			tasks: [{
 				entity: "cataclysm:netherite_monstrosity"
 				id: "72D229B7096B5C84"
 				type: "kill"
 				value: 1L
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 5.45d
+			y: 1.5d
 		}
 		{
+			icon_scale: 1.5d
 			id: "46540944F69E993E"
+			rewards: [{
+				id: "5B5E28D676774F81"
+				item: {
+					count: 1
+					id: "endrem:corrupted_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.65d
 			tasks: [{
 				entity: "cataclysm:maledictus"
 				id: "08B17E2A7DA36DCB"
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 6.58d
+			y: -2.2d
 		}
 		{
 			dependencies: ["7E02AFE9ECB11C23"]
@@ -196,8 +320,8 @@
 				item: { count: 1, id: "cataclysm:cursed_eye" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.0d
+			x: -6.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["7E02AFE9ECB11C23"]
@@ -208,19 +332,30 @@
 				item: { count: 1, id: "cataclysm:storm_eye" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.0d
+			x: -4.0d
+			y: -3.5d
 		}
 		{
+			icon_scale: 1.5d
 			id: "316261F84C296364"
+			rewards: [{
+				id: "61FA49A9288C9846"
+				item: {
+					count: 1
+					id: "endrem:exotic_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.65d
 			tasks: [{
 				entity: "cataclysm:scylla"
 				id: "33CED10B051A0D4B"
 				type: "kill"
 				value: 1L
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 6.91d
+			y: -0.9d
 		}
 		{
 			id: "7E02AFE9ECB11C23"
@@ -229,7 +364,7 @@
 				id: "62B26DEFD59C3E00"
 				type: "checkmark"
 			}]
-			x: 5.0d
+			x: -6.0d
 			y: -2.5d
 		}
 		{
@@ -241,30 +376,34 @@
 				item: { count: 1, id: "cataclysm:desert_eye" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.0d
+			x: -4.0d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
-			dependencies: ["46540944F69E993E"]
+			dependencies: ["75ABB87AFE7355B5"]
+			icon: {
+				id: "endrem:magical_eye"
+			}
 			id: "7BA73620533BD128"
 			optional: true
 			rewards: [{
-				id: "3242CB056D2C0CCE"
+				id: "26B7AFC76F839E35"
 				item: {
 					count: 1
-					id: "minecraft:apple"
+					id: "endrem:magical_eye"
 				}
 				type: "item"
 			}]
+			shape: "none"
 			tasks: [{
 				id: "7B51539A02CBD7CD"
 				points: false
 				type: "xp"
-				value: 10L
+				value: 30L
 			}]
-			x: 4.5d
-			y: 1.0d
+			x: 3.2d
+			y: 0.1d
 		}
 		{
 			dependencies: ["7E02AFE9ECB11C23"]
@@ -275,8 +414,8 @@
 				item: { count: 1, id: "cataclysm:abyss_eye" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.0d
+			x: -5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7E02AFE9ECB11C23"]
@@ -287,8 +426,8 @@
 				item: { count: 1, id: "cataclysm:monstrous_eye" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.0d
+			x: -6.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["7E02AFE9ECB11C23"]
@@ -299,8 +438,8 @@
 				item: { count: 1, id: "cataclysm:flame_eye" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7E02AFE9ECB11C23"]
@@ -311,7 +450,450 @@
 				item: { count: 1, id: "cataclysm:mech_eye" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["70C06996DE97A878"]
+			icon: {
+				id: "endrem:black_eye"
+			}
+			id: "05B14B9BE32C1BEE"
+			optional: true
+			rewards: [{
+				id: "3514A9CC8367FE65"
+				item: {
+					count: 1
+					id: "endrem:black_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7EB70BB47BA7968B"
+				points: false
+				type: "xp"
+				value: 30L
+			}]
+			x: 4.4d
+			y: -1.9d
+		}
+		{
+			can_repeat: true
+			dependencies: ["46540944F69E993E"]
+			icon: {
+				id: "endrem:corrupted_eye"
+			}
+			id: "46D05A6946C0CB10"
+			optional: true
+			rewards: [{
+				id: "2D80D28B55960E4E"
+				item: {
+					count: 1
+					id: "endrem:corrupted_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4B1C262D04C91D3D"
+				points: false
+				type: "xp"
+				value: 30L
+			}]
+			x: 4.800000000000001d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2FFC5F0F052AE543"]
+			icon: {
+				id: "endrem:cursed_eye"
+			}
+			id: "7B1D16A221F377F0"
+			optional: true
+			rewards: [{
+				id: "2CFD7FD9082533C8"
+				item: {
+					count: 1
+					id: "endrem:cursed_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3ACD04A2C94497C4"
+				points: false
+				type: "xp"
+				value: 30L
+			}]
+			x: 4.800000000000001d
+			y: -0.20000000000000004d
+		}
+		{
+			can_repeat: true
+			dependencies: ["76A2530BA1DB6D5D"]
+			icon: {
+				id: "endrem:evil_eye"
+			}
+			id: "5841090A71E96563"
+			optional: true
+			rewards: [{
+				id: "76163D4281CA3E64"
+				item: {
+					count: 1
+					id: "endrem:evil_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7FBF7437EF95D91A"
+				points: false
+				type: "xp"
+				value: 30L
+			}]
+			x: 4.400000000000002d
+			y: 0.20000000000000004d
+		}
+		{
+			can_repeat: true
+			dependencies: ["316261F84C296364"]
+			icon: {
+				id: "endrem:exotic_eye"
+			}
+			id: "58C20B17EB3CD72E"
+			optional: true
+			rewards: [{
+				id: "25F044595DD2F7B0"
+				item: {
+					count: 1
+					id: "endrem:exotic_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4D0DF5B75464D8C0"
+				points: false
+				type: "xp"
+				value: 30L
+			}]
+			x: 4.9d
+			y: -0.9d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5426A5787A356FF0"]
+			icon: {
+				id: "endrem:guardian_eye"
+			}
+			id: "4E66CE45C37BB46A"
+			optional: true
+			rewards: [{
+				id: "79569DC065A780AD"
+				item: {
+					count: 1
+					id: "endrem:guardian_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0B7603AFF7BC9B38"
+				points: false
+				type: "xp"
+				value: 30L
+			}]
+			x: 3.7d
+			y: -2.0999999999999996d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4BF13898B1DF1B48"]
+			icon: {
+				id: "endrem:cold_eye"
+			}
+			id: "039D94ACF27C120F"
+			optional: true
+			rewards: [{
+				id: "48F60141F310DE1D"
+				item: {
+					count: 1
+					id: "endrem:cold_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4B35435283CDD10A"
+				points: false
+				type: "xp"
+				value: 30L
+			}]
+			x: 2.7000000000000006d
+			y: -0.30000000000000004d
+		}
+		{
+			can_repeat: true
+			dependencies: ["56CC4D63313E1E86"]
+			icon: {
+				id: "endrem:nether_eye"
+			}
+			id: "66A6260F2BE6149D"
+			optional: true
+			rewards: [{
+				id: "5BED979A9999CEAE"
+				item: {
+					count: 1
+					id: "endrem:nether_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "427E51B53D1A36B4"
+				points: false
+				type: "xp"
+				value: 30L
+			}]
+			x: 3.0999999999999996d
+			y: -1.9d
+		}
+		{
+			can_repeat: true
+			dependencies: ["30780A78A9A02220"]
+			icon: {
+				id: "endrem:old_eye"
+			}
+			id: "2A0AC1BA2C4AF17E"
+			optional: true
+			rewards: [{
+				id: "1B6DD2104513E12C"
+				item: {
+					count: 1
+					id: "endrem:old_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3DA7D5AF886E1FC6"
+				points: false
+				type: "xp"
+				value: 30L
+			}]
+			x: 3.6999999999999997d
+			y: 0.30000000000000004d
+		}
+		{
+			can_repeat: true
+			dependencies: ["26773D019CD73BBA"]
+			icon: {
+				id: "endrem:undead_eye"
+			}
+			id: "2623296493862E0C"
+			optional: true
+			rewards: [{
+				id: "23D1047F6E7D47A3"
+				item: {
+					count: 1
+					id: "endrem:undead_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "00884EBD855CF58B"
+				points: false
+				type: "xp"
+				value: 30L
+			}]
+			x: 2.4999999999999996d
+			y: -0.9d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7809934085C1C484"]
+			icon: {
+				id: "endrem:wither_eye"
+			}
+			id: "465E4A02BC46CA9E"
+			optional: true
+			rewards: [{
+				id: "14D03433442D6949"
+				item: {
+					count: 1
+					id: "endrem:wither_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4A5BDF2139CB44C3"
+				points: false
+				type: "xp"
+				value: 30L
+			}]
+			x: 2.6999999999999997d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "block_factorys_bosses:sandworm_spawn_egg"
+			}
+			icon_scale: 1.25d
+			id: "30780A78A9A02220"
+			rewards: [{
+				id: "4DACFC69DAEF8699"
+				item: {
+					count: 1
+					id: "endrem:old_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.65d
+			tasks: [{
+				entity: "block_factorys_bosses:sandworm"
+				id: "7DEB0B46AE68E657"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.69d
+			y: 1.9d
+		}
+		{
+			icon: {
+				id: "block_factorys_bosses:infernal_dragon_spawn_egg"
+			}
+			icon_scale: 1.25d
+			id: "75ABB87AFE7355B5"
+			rewards: [{
+				id: "4480C4CCBFB55FB6"
+				item: {
+					count: 1
+					id: "endrem:magical_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.65d
+			tasks: [{
+				entity: "block_factorys_bosses:infernal_dragon"
+				id: "4274DF5032EE87AA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.98d
+			y: 1.5d
+		}
+		{
+			icon_scale: 1.25d
+			id: "26773D019CD73BBA"
+			rewards: [{
+				id: "19F8C822B92F770D"
+				item: {
+					count: 1
+					id: "endrem:undead_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.65d
+			tasks: [{
+				entity: "block_factorys_bosses:underworld_knight"
+				id: "5BA0148E270972B7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.45d
+			y: -0.9d
+		}
+		{
+			icon: {
+				id: "block_factorys_bosses:yeti_spawn_egg"
+			}
+			icon_scale: 1.25d
+			id: "4BF13898B1DF1B48"
+			rewards: [{
+				id: "3978792B9E7A39B2"
+				item: {
+					count: 1
+					id: "endrem:cold_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.65d
+			tasks: [{
+				entity: "block_factorys_bosses:yeti"
+				id: "1E11535129EA545F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.81d
+			y: 0.4d
+		}
+		{
+			icon_scale: 1.5d
+			id: "7809934085C1C484"
+			rewards: [{
+				id: "4EA0AECF4F2BBEC9"
+				item: {
+					count: 1
+					id: "endrem:wither_eye"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.65d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "003E94ED4A3CF738"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.83d
+			y: -2.2d
+		}
+		{
+			id: "13CEC72E9FC3F547"
+			tasks: [{
+				id: "59C78E5C9CF9B249"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			id: "63D14F7908468D88"
+			tasks: [{
+				id: "7C44BC91C7F90327"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["63D14F7908468D88"]
+			id: "5993FB7A32634FCC"
+			tasks: [
+				{
+					count: 3L
+					id: "687813D35BC154E6"
+					item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "24646D0B2C253F90"
+					item: { count: 1, id: "minecraft:soul_sand" }
+					type: "item"
+				}
+			]
+			x: -5.0d
 			y: -1.0d
 		}
 	]
