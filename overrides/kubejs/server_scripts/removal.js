@@ -61,7 +61,10 @@ const recipeIdsToRemove = [
 	'cataclysm:abyss_eye',
 	'cataclysm:desert_eye',
 	'cataclysm:cursed_eye',
-	'cataclysm:storm_eye'
+	'cataclysm:storm_eye',
+
+	// Shrink
+	'shrink:shrinking_device'
 ]
 
 const recipeOutputToRemove = [
