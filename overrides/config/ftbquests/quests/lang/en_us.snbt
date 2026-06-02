@@ -7,7 +7,6 @@
 	chapter.146A9F56E47B33EE.title: "Mekanism"
 	chapter.231570DE6A7FCD52.title: "When Dungeons Arise"
 	chapter.29236C355EF25B6B.title: "Basic Storage"
-	chapter.29B6D19079E519CC.title: "Iron's Spells 'n Spellbooks"
 	chapter.2B4C63DE293D5BA8.title: "Dragon Mounts Remastered"
 	chapter.3013F0DF90A7C5A4.title: "Helpful Tips"
 	chapter.371D6A80DB6DAF11.title: "Stellaris"
@@ -19,6 +18,7 @@
 	chapter.42DFB5AC370205B8.title: "&2Chapter 2&r: &aTwilight Forest"
 	chapter.4D493540DD99DAC8.title: "End Progression"
 	chapter.4EEDECACDE8F5A67.title: "Oritech"
+	chapter.506A672CDC854D87.title: "Iron's Spells 'n Spellbooks"
 	chapter.51A8F6D0383FA895.title: "Challenges"
 	chapter.52805200DB691919.title: "&2Chapter 1&r: &bA New Beginning"
 	chapter.61363A08FEB6FC44.title: "Useful Items"
@@ -51,6 +51,8 @@
 		"- 1 bucket of Strange Matter"
 		"- 1 Dubious Container"
 	]
+	quest.0216FBC6F0E1C42A.title: "Village"
+	quest.02C0F488CB675033.title: "Ice Spider Den"
 	quest.02CB075775B6AD52.title: "Minishroom"
 	quest.0331AC0315EBB66D.quest_desc: ["Nestled among the trees, this lively tavern is usually a haven for villagers looking to unwind. Yet when the ale flows too freely, even the most peaceful patrons turn aggressive, defending their pub with surprising ferocity. Enter carefully or risk being caught in a drunken brawl."]
 	quest.0331AC0315EBB66D.quest_subtitle: "Find a Greenwood Pub"
@@ -85,6 +87,9 @@
 	quest.0CE50A7F4F1A0E4D.quest_desc: ["ladder stretches skyward, disappearing into the clouds. At its top floats a strange, floating vessel. What secrets or dangers await above, none can say… except that the view alone is enough to make even the bravest adventurer’s stomach turn."]
 	quest.0CE50A7F4F1A0E4D.quest_subtitle: "Find a Small Blimp"
 	quest.0D0736A86261B836.title: "Contraptions"
+	quest.0D8C19B52052578E.quest_desc: ["All about making and using &9Spells&r! Each &9Spells&r has a rarity, level, and class. Every single one of them can be used in a Spellbook."]
+	quest.0D8C19B52052578E.quest_subtitle: "Spells!"
+	quest.0D8C19B52052578E.title: "Iron's Spells n' Spellbooks"
 	quest.0D95EEE56AB91A43.quest_desc: ["&lOops. Looks like you died somehow.&r"]
 	quest.0D95EEE56AB91A43.title: "Died to Skill Issue"
 	quest.0DAE85314DB5BEA7.quest_subtitle: "Particles!"
@@ -124,6 +129,7 @@
 		"Each shelf listed in this quest will lower the amount to their respective quantities."
 	]
 	quest.136E4EFBFC40854A.quest_subtitle: "We need to lessen the other types"
+	quest.13A914771F7DCD86.title: "Pyromancer Tower"
 	quest.13BA135701C770DD.quest_desc: ["Trash useless liquids"]
 	quest.13BA135701C770DD.quest_subtitle: "*drinks liquid*"
 	quest.143E276452F93FB2.quest_desc: ["A simple way of doing wireless redstone via &6Create&r mod"]
@@ -182,6 +188,7 @@
 	quest.1EC4EC1360450327.quest_desc: ["Kill 4 Endermites"]
 	quest.1F10BC33D22328BD.quest_desc: ["Time has claimed this once-sacred site, leaving its halls cracked and overgrown. Now, ghostly skeletons and trickster illusioners linger within, guarding little more than shadows of former glory. Though its dangers are real, the temple’s sturdy walls make it a tempting refuge for those seeking a foothold in this hostile world."]
 	quest.1F10BC33D22328BD.quest_subtitle: "Find an Abandoned Temple"
+	quest.1F817C3EB4B428BE.title: "Evoker Fort"
 	quest.1FDC7A5C9775369F.quest_desc: ["Drink 8 Honey Bottles"]
 	quest.2005D166AD0D9767.quest_desc: ["&cQuanta&r mix the enchantment pool but has a downside. Weaker enchantments can be more common with this."]
 	quest.2005D166AD0D9767.quest_subtitle: "Mixing Enchantment pool"
@@ -196,6 +203,7 @@
 	]
 	quest.235D3E99C995AB27.quest_desc: ["Seriously, skill issue? I think you need something better"]
 	quest.235D3E99C995AB27.quest_subtitle: "Bigger Skill Issues"
+	quest.23CB3C5909140F7F.title: "Mangrove Hut"
 	quest.23E53C7D1FCCDD9E.title: "Snow Queen"
 	quest.2405988B9871DF64.quest_desc: ["Change the iron furnace to blasting stuff"]
 	quest.2405988B9871DF64.quest_subtitle: "Blast them away"
@@ -326,6 +334,7 @@
 		"Here you will find the basics of power generation, storage, transfer, and more!"
 	]
 	quest.3DBA4FD717E992C4.quest_subtitle: "Need power? We got your back!"
+	quest.3E07B7BC48729BB5.title: "Ancient Battleground"
 	quest.3ECA226F08D5195F.quest_desc: ["Hidden among hills and valleys, the monastery stands as a quiet refuge in a world of rising danger. Here, villagers tend to simple lives of prayer and work, untouched by Illager conquest. Though the halls hold little in the way of treasure, their sturdy walls and peaceful company make this an ideal sanctuary for weary adventurers."]
 	quest.3ECA226F08D5195F.quest_subtitle: "Find a Monastery"
 	quest.3EDB6AECAD05FE00.quest_desc: [
@@ -439,6 +448,9 @@
 	quest.5EDA9EE840DC72E2.quest_subtitle: "Your typical vanilla diamond armor"
 	quest.5EDA9EE840DC72E2.title: "&bBasic Survival Part II"
 	quest.60F2287AA77A6B65.title: "Lich"
+	quest.613494B155650E1B.quest_desc: ["There are a total of 6 structures to visit in the Overworld."]
+	quest.613494B155650E1B.quest_subtitle: "Adventure Time!"
+	quest.613494B155650E1B.title: "Visit all 6 Structures!"
 	quest.61707A2ED6BD53DB.quest_subtitle: "Cast them ingots awayt!"
 	quest.617C9D74082D833B.quest_desc: ["I guess you prefer paying a million coins just to be poor again."]
 	quest.617C9D74082D833B.quest_subtitle: "Become a Millionare just to be poor again"
@@ -455,6 +467,7 @@
 		""
 		"Hint: Right-Click a bee with no stinger while holding a Bee Stinger."
 	]
+	quest.66575B82544BF343.title: "Mountain Tower"
 	quest.67030CEFEC1CEF37.quest_desc: ["Driven from their villages, these hardy merchants now wander the wilds, taking shelter beneath simple cyan and brown tents. Though weary from exile, they still offer trade and refuge to travelers brave enough to seek them out. In a world rising with danger, such camps are rare havens of trust."]
 	quest.67030CEFEC1CEF37.quest_subtitle: "Find a Merchant Campsite"
 	quest.67F05CEB4CF3571F.quest_desc: [
@@ -501,6 +514,7 @@
 	quest.76DAECF378BA3F19.quest_subtitle: "Find a Mining System"
 	quest.772D3B613376231C.quest_desc: ["Any Minecraft flowers will do."]
 	quest.772D3B613376231C.quest_subtitle: "Lovely"
+	quest.78765D88D58BEEE6.title: "Catacombs"
 	quest.78E43DB29545F7EC.quest_desc: ["Spectre coils are pretty good for free power."]
 	quest.78E43DB29545F7EC.quest_subtitle: "FREE POWER REAL ESTATE???"
 	quest.794430168497918E.quest_desc: ["There are various tiered glyphs to be made."]
@@ -513,6 +527,7 @@
 	quest.797BC0F627CC8328.title: "Nether Quartz (Dust)"
 	quest.79D7783D5D64A6E3.title: "Play for 7 IRL days"
 	quest.7A064A354B174C8F.quest_desc: ["Need to find the meteorite quickly? Make yourself a meteorite compass!"]
+	quest.7A66E4B7D69D0A84.title: "Citadel"
 	quest.7AA09C60D4872C95.quest_desc: ["You can just be basic and go with the typical regular sword..."]
 	quest.7AA09C60D4872C95.quest_subtitle: "Boring..."
 	quest.7B78090DA9BB059A.quest_desc: ["Kill 16 Cave Spiders"]
@@ -521,6 +536,7 @@
 	quest.7BB114C36D046A77.title: "&5Arcana"
 	quest.7C1B4BEE599106C8.quest_desc: ["You dealt that much damage over the span of playing this modpack? Congratulations!"]
 	quest.7C689569C467AC1E.title: "EnderIO Energy Conduit"
+	quest.7D1C63D9DC5874A3.title: "Spellbooks"
 	quest.7D3678E50EC17B70.quest_desc: ["Breed 8 pairs of bees"]
 	quest.7D97A435295734ED.title: "Windmills"
 	quest.7FD2BB4969B67C57.quest_desc: ["Hold your enchantment books and can take out whatever you like."]
