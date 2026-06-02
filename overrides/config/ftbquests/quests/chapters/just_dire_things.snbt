@@ -951,6 +951,7 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			tasks: [{
 				id: "2F3B03C99162AC07"
 				item: { count: 1, id: "justdirethings:paradoxmachine" }
@@ -1016,12 +1017,13 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			tasks: [{
 				id: "7B9FC0237BCB0D17"
 				item: { count: 1, id: "justdirethings:energytransmitter" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 1.0d
 		}
 		{
@@ -1045,6 +1047,7 @@
 					type: "item"
 				}
 			]
+			shape: "square"
 			tasks: [{
 				id: "04A3F3E2BAC022C3"
 				item: { count: 1, id: "justdirethings:itemcollector" }
@@ -1196,6 +1199,36 @@
 			}]
 			x: -5.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["0F6846E66A4454E0"]
+			id: "28F2CF7A1DB7312B"
+			rewards: [
+				{
+					id: "438C1CA50D314B43"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "66F428DF7B8FB833"
+					item: {
+						count: 1
+						id: "justdirethings:blazegold_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "5171D8D58BBAEF7F"
+				item: { count: 1, id: "justdirethings:experienceholder" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
 		}
 	]
 }

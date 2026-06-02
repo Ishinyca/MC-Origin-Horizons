@@ -1,0 +1,351 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "helpful_tools"
+	group: "2A5D074FFC415AEC"
+	icon: {
+		id: "supplementaries:wrench"
+	}
+	id: "61363A08FEB6FC44"
+	images: [
+		{
+			height: 1.5d
+			image: "constructionwand:item/core_angel"
+			rotation: -45.0d
+			width: 1.5d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "olympus:textures/gui/sprites/icons/trash.png"
+			rotation: 45.0d
+			width: 1.5d
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "mekanism:block/cardboard_box_side_storage"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			height: 1.25d
+			image: "justdirethings:item/creaturecatcher_top_animation"
+			order: -1
+			rotation: 0.0d
+			width: 1.25d
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:textures/chapter_names/useful_items.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -0.5d
+			y: -2.5d
+		}
+	]
+	order_index: 2
+	quest_links: [
+		{
+			id: "383DC5F430830E3D"
+			linked_quest: "1C7623DE83B8C548"
+			shape: "square"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			id: "2A79132D9B04C44F"
+			linked_quest: "28F2CF7A1DB7312B"
+			shape: "square"
+			x: -4.5d
+			y: 0.0d
+		}
+	]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbfiltersystem:textures/gui/sprites/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "3AEED442E3D6D746"
+			optional: true
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "3C17B944AD27B6E6"
+				optional_task: true
+				type: "checkmark"
+			}]
+			x: -0.7000000000000001d
+			y: 0.30000000000000004d
+		}
+		{
+			id: "2D71BBA51033AA3B"
+			rewards: [{
+				id: "74DDA56BA736B019"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "03004471C97BDA1D"
+				item: { count: 1, id: "constructionwand:stone_wand" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D71BBA51033AA3B"]
+			id: "1AAA47FD435FAD31"
+			rewards: [{
+				id: "16DD1299D16E9A6E"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "653E8AD438DC9994"
+				item: { count: 1, id: "constructionwand:iron_wand" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1AAA47FD435FAD31"]
+			id: "3EDB6AECAD05FE00"
+			rewards: [{
+				id: "2133D5C0104162F4"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2FA1A4EC480479A8"
+				item: { count: 1, id: "constructionwand:diamond_wand" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3EDB6AECAD05FE00"]
+			id: "11BF177715DA1EF5"
+			rewards: [{
+				id: "22BF07A7B04948ED"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5170E5284D520D3A"
+				item: { count: 1, id: "constructionwand:netherite_wand" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11BF177715DA1EF5"]
+			id: "1A9120D512F082D7"
+			rewards: [{
+				id: "5360300630F09500"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4BB6421C7A37AC80"
+				item: { count: 1, id: "constructionwand:infinity_wand" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "13BA135701C770DD"
+			rewards: [{
+				id: "6AD04D255A60EF56"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1105828376CFCBF7"
+				item: { count: 1, id: "trashcans:liquid_trash_can" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "42DEE9488BC39301"
+			rewards: [{
+				id: "2B130CD3D850F4DB"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B3E4B1A0F3603B3"
+				item: { count: 1, id: "trashcans:item_trash_can" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"42DEE9488BC39301"
+				"13BA135701C770DD"
+				"04280F37CD4C3059"
+			]
+			id: "3767D9BF4AF3A07D"
+			rewards: [{
+				id: "1E9232D805689DDD"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "28E3A49EA78A8231"
+				item: { count: 1, id: "trashcans:ultimate_trash_can" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "04280F37CD4C3059"
+			rewards: [{
+				id: "3CDA3E74484F1BEA"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "36541D80C116AD21"
+				item: { count: 1, id: "trashcans:energy_trash_can" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "0059185330135D4D"
+			shape: "none"
+			size: 1.5d
+			tasks: [{
+				id: "0FA1EEDED943E9A3"
+				item: { count: 1, id: "mekanism:cardboard_box" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "43F89025223B0C8B"
+			rewards: [{
+				id: "341DE8A817986989"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7E28BD56E3170014"
+				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:creaturecatcher)item(enderio:soul_vial))", "minecraft:custom_name": "\"Moving Mobs\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				id: "cable_facades:facade"
+			}
+			id: "75746870BF6D716F"
+			rewards: [{
+				id: "55746D38577F7B92"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [
+				{
+					id: "508A294C2034C788"
+					item: { count: 1, id: "cable_facades:facade" }
+					type: "item"
+				}
+				{
+					id: "2F9E3D5C36661B67"
+					item: { count: 1, id: "cable_facades:facade_wrench" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "143E276452F93FB2"
+			rewards: [{
+				id: "0EA5F9A227F80001"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0E5C4349A0DF4867"
+				item: { count: 1, id: "create:redstone_link" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+	]
+}

@@ -21,6 +21,7 @@
 	chapter.4EEDECACDE8F5A67.title: "Oritech"
 	chapter.51A8F6D0383FA895.title: "Challenges"
 	chapter.52805200DB691919.title: "&2Chapter 1&r: &bA New Beginning"
+	chapter.61363A08FEB6FC44.title: "Useful Items"
 	chapter.636897E6C19C8E62.title: "Theurgy"
 	chapter.646C49F0E98F631C.title: "&2Chapter 3&r: &4Nether"
 	chapter.664F9EC033517D41.title: "&2Chapter 5&r: &7Going Deeper"
@@ -35,6 +36,14 @@
 	chapter_group.69C66C6408A97599.title: "Adventure"
 	chapter_group.6FCD6CD6E3B683F5.title: "Achievements"
 	file.0000000000000001.title: "&f&lMC Resonance Horizons!&r"
+	quest.0059185330135D4D.quest_desc: [
+		"The &9Cardboard Box&r is aa very useful item that can be used to move block entities around! Like chests, blocks, and more!"
+		""
+		"Hold the &9Cardboard Box&r and right click on the block of your choosing, then break it like normal. Placing this block down and sneak-right click will remove the box."
+		""
+		"&lNOTE:&r There are blacklisted items that &9Cardboard Box&r cannot pick up like Spawners!"
+	]
+	quest.0059185330135D4D.quest_subtitle: "Moving Day!"
 	quest.01D8FDF4AC637C7B.quest_subtitle: "EVEN BETTER ARMOR?!"
 	quest.01D8FDF4AC637C7B.title: "&cBasic Survival Part IV"
 	quest.0211210857DE6FE8.quest_desc: [
@@ -48,6 +57,8 @@
 	quest.039D94ACF27C120F.title: "Cold Eye"
 	quest.041A1C64A8468087.quest_desc: ["Suspended high in the sky, this arrowhead-shaped airship drifts on a massive aft propeller. Boarding is perilous, but those who succeed will witness its strange and fearsome inhabitants riding boar-like beasts, their eyeless faces obscured by ominous cages. Danger and mystery ride with them across the clouds."]
 	quest.041A1C64A8468087.quest_subtitle: "Find a Heavenly Rider"
+	quest.04280F37CD4C3059.quest_desc: ["Trash useless energy"]
+	quest.04280F37CD4C3059.quest_subtitle: "*powering up*"
 	quest.04E3599A10D8D30B.quest_subtitle: "More channels!"
 	quest.05ED70A25DD22273.quest_desc: ["You can actually find glowstone pre-nether. Just find a structure that has glowstone blocks and break them!"]
 	quest.05ED70A25DD22273.quest_subtitle: "GLOWY IN OVERWORLD?!"
@@ -96,6 +107,11 @@
 		"&9Active&r: Place combustables in the machine and will burn the fuel to create power."
 	]
 	quest.114C5137D98ED36D.quest_subtitle: "At least this is still usable somewhat"
+	quest.11BF177715DA1EF5.quest_desc: [
+		"Durability: 2031"
+		"Max Blocks: 512"
+	]
+	quest.11BF177715DA1EF5.quest_subtitle: "Tier 4 Wand"
 	quest.133FAEAEA2AB0EDB.quest_desc: [
 		"Do you seriously have trouble staying alive?"
 		""
@@ -108,6 +124,10 @@
 		"Each shelf listed in this quest will lower the amount to their respective quantities."
 	]
 	quest.136E4EFBFC40854A.quest_subtitle: "We need to lessen the other types"
+	quest.13BA135701C770DD.quest_desc: ["Trash useless liquids"]
+	quest.13BA135701C770DD.quest_subtitle: "*drinks liquid*"
+	quest.143E276452F93FB2.quest_desc: ["A simple way of doing wireless redstone via &6Create&r mod"]
+	quest.143E276452F93FB2.quest_subtitle: "WIRELESS REDSTONE!?"
 	quest.144557C43C28921F.quest_desc: ["Change the iron furnace type to food smelting stuff"]
 	quest.144557C43C28921F.quest_subtitle: "Cook I say?"
 	quest.14549189E9943627.quest_desc: ["Chapter 6 is hidden unless you click the checkmark."]
@@ -133,6 +153,16 @@
 		"If Amethyst Golems are too slow at picking and storing the items, you can attach a vacuum chest or item collector and pump into the chest."
 	]
 	quest.188AAB5B74C6EAAE.quest_subtitle: "Discover an Infested Temple explorer map"
+	quest.1A9120D512F082D7.quest_desc: [
+		"Durability: Unbreakable"
+		"Max Blocks: 1024"
+	]
+	quest.1A9120D512F082D7.quest_subtitle: "Tier 5 Wand"
+	quest.1AAA47FD435FAD31.quest_desc: [
+		"Durability: 250"
+		"Max Blocks: 27"
+	]
+	quest.1AAA47FD435FAD31.quest_subtitle: "Tier 2 Wand"
 	quest.1C375606107C117F.quest_subtitle: "Find Keep Kayra"
 	quest.1C4DEE27CA0588C2.title: "Can"
 	quest.1CCA31D9352C60E6.quest_desc: ["Clustered around a towering central “grandmother” mushroom, these villages appear quaint from afar. Yet the villagers within are far more aggressive than their old-world counterparts, hiding a cunning fierceness beneath their colorful caps. Approach with caution as this village may welcome the unwary only to spring its traps."]
@@ -239,6 +269,11 @@
 	quest.2CB057CB79D54C84.quest_desc: ["Kill 32 Spiders (Cave Spiders do not count)"]
 	quest.2CD8A17598283E7C.quest_subtitle: "Regular cables"
 	quest.2D39F837ECC5B325.quest_desc: ["Just another furnace but better than vanilla furnace"]
+	quest.2D71BBA51033AA3B.quest_desc: [
+		"Durability: 131"
+		"Max Blocks: 9"
+	]
+	quest.2D71BBA51033AA3B.quest_subtitle: "Tier 1 Wand"
 	quest.2D89CF138A4FCB89.title: "Logistic Transporter"
 	quest.2DB4F395EA26DF4B.quest_subtitle: "Find a Coliseum"
 	quest.2DCCC1C463471165.quest_desc: ["You only need to defeat 12 of the 16 bosses to enter The End. If you ever lose an eye, it will cost you 10 levels to replace it."]
@@ -262,6 +297,8 @@
 	quest.3259CC7B562EB050.quest_desc: ["There are a few power options from Stellaris mod."]
 	quest.36D8CF803CD1C83A.title: "Knight Phantom"
 	quest.374B8A457598CDE3.title: "Assebler Matrix Structure"
+	quest.3767D9BF4AF3A07D.quest_desc: ["All in one trashcan. Trash useless everything"]
+	quest.3767D9BF4AF3A07D.quest_subtitle: "*eating/drinking ALL OF THE THINGS!*"
 	quest.376F4A768C6A17CF.quest_subtitle: "Get your first diamond"
 	quest.376F4A768C6A17CF.title: "DIAMONDS?!"
 	quest.37C3D6DC0D6B89B4.quest_desc: ["&aEterna&r sets the enchantment level of which enchantments you will get. It's just similar to vanilla Minecraft but a different take on it."]
@@ -271,6 +308,7 @@
 	quest.38E4245CC00B4D74.quest_subtitle: "Base Upgrade? Yes please."
 	quest.39AD36B6E3388415.quest_desc: ["Hold your enchantment books and can take out whatever you like, BUT BETTER!"]
 	quest.39C18383B6135B55.title: "Giant's Cloud"
+	quest.3AEED442E3D6D746.quest_desc: ["All about useful items to help you with your adventures!"]
 	quest.3CEFE6DE9218A829.quest_desc: [
 		"Craft a full set of &6Wooden Armour"
 		""
@@ -290,6 +328,11 @@
 	quest.3DBA4FD717E992C4.quest_subtitle: "Need power? We got your back!"
 	quest.3ECA226F08D5195F.quest_desc: ["Hidden among hills and valleys, the monastery stands as a quiet refuge in a world of rising danger. Here, villagers tend to simple lives of prayer and work, untouched by Illager conquest. Though the halls hold little in the way of treasure, their sturdy walls and peaceful company make this an ideal sanctuary for weary adventurers."]
 	quest.3ECA226F08D5195F.quest_subtitle: "Find a Monastery"
+	quest.3EDB6AECAD05FE00.quest_desc: [
+		"Durability: 1561"
+		"Max Blocks: 128"
+	]
+	quest.3EDB6AECAD05FE00.quest_subtitle: "Tier 3 Wand"
 	quest.3F016FA9CAF0B951.quest_desc: ["Good thing all your items are stored in a grave! This modpack is using Epitaphs mod."]
 	quest.3F016FA9CAF0B951.quest_subtitle: "GRAVESTONE!"
 	quest.3F016FA9CAF0B951.title: "It's your gravestone!"
@@ -311,8 +354,19 @@
 		""
 		"This is easily done with 15 &4Glowing Hellshelves&r and 4 &2Melonshelves.&r"
 	]
+	quest.42DEE9488BC39301.quest_desc: ["Trash useless items"]
+	quest.42DEE9488BC39301.quest_subtitle: "*eats item*"
 	quest.436231715C11E3BA.quest_desc: ["Scattered across the wilds, small bands of Illagers set up camp beneath their distinctive purple tents. Though their supplies are meager and their loot scarce, their presence is a warning, the Illagers’ reach grows wider with every outpost."]
 	quest.436231715C11E3BA.quest_subtitle: "Find an Illager Campsite"
+	quest.43F89025223B0C8B.quest_desc: [
+		"The &aCreature Catcher&r is a simple reusable device that can be thrown at mobs to capture them and you can place it anywhere you want."
+		""
+		"The &aSoul Vial&r works exactly the same way but with the exception you immediately capture the mob."
+		""
+		""
+		"&lNOTE&r: There are banned entities from capturing such as Warden, DMR Dragons, Evokers, etc."
+	]
+	quest.43F89025223B0C8B.quest_subtitle: "Legally Kidnapping Villagers"
 	quest.44D115281B0BFB75.quest_desc: ["Whispers speak of a &9flying vessel&r that hovers above the world, shimmering with strange energy. Few dare approach, for those who return tell of eerie lights, warped corridors, and guardians not of this realm. Seek it out, if you dare—and uncover the secrets hidden within its metallic shell."]
 	quest.44D115281B0BFB75.quest_subtitle: "Find a Giant Mushroom"
 	quest.4791FC0A2E834D85.quest_desc: ["Dark magics linger in the depths of these dungeons, woven into items, halls, and even the very air. Power awaits the bold, but so do twisted fates for the careless."]
@@ -434,6 +488,8 @@
 	quest.7496D211FE9B5CFC.quest_desc: ["The First two tiers are pretty good for early game"]
 	quest.7496D211FE9B5CFC.quest_subtitle: "Just Dire Things?"
 	quest.7496D211FE9B5CFC.title: "JustDireThings Weapons"
+	quest.75746870BF6D716F.quest_desc: ["One-size-fits-all solution to hiding all of your cables!"]
+	quest.75746870BF6D716F.quest_subtitle: "Hide them cables!"
 	quest.76234127DB3339B8.quest_desc: [
 		"This modpack uses the Tyz's Skills mod. Level up by doing things. Earn SP by leveling up. Get stronger."
 		""
@@ -519,6 +575,7 @@
 	task.375FFF007F1133EA.title: "&6&lBounty:&r Kill 25x Spiders"
 	task.395FE2F733E46196.title: "Any #stellaris:can"
 	task.3BCC7A95362656E4.title: "Basic Weapons"
+	task.3C17B944AD27B6E6.title: "Helpful Tools"
 	task.3D45D3F5DE594C29.title: "Bugs?"
 	task.3D49F928A22A6D24.title: "Visit the Nether"
 	task.41518E9C09FDE0DD.title: "Defeat the Underworld Knight"
