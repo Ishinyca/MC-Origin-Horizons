@@ -27,7 +27,7 @@
 	#Maximum XP a player can earn within a defined period of time (-1 to disable limit)
 	# Default: -1.0
 	# Range: -1.0 ~ 1.7976931348623157E308
-	xp_daily = 100.0
+	xp_daily = 300.0
 	#Time that must elapse before the XP limit reset (in sec)
 	# Default: 1200
 	# Range: 1 ~ 9223372036854775807
