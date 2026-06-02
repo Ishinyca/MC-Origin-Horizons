@@ -7,6 +7,14 @@
 		id: "mekanism:configurator"
 	}
 	id: "146A9F56E47B33EE"
+	images: [{
+		height: 2.0d
+		image: "ftbquests:textures/chapter_names/mekanism.png"
+		rotation: 0.0d
+		width: 9.0d
+		x: -2.0d
+		y: -4.5d
+	}]
 	order_index: 5
 	quest_links: [ ]
 	quests: [

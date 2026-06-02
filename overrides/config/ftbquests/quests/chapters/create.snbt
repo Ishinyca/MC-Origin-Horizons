@@ -7,6 +7,14 @@
 		id: "create:large_cogwheel"
 	}
 	id: "6B8F3905646E08FF"
+	images: [{
+		height: 2.0d
+		image: "ftbquests:textures/chapter_names/create.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: -3.0d
+		y: -4.5d
+	}]
 	order_index: 1
 	quest_links: [
 		{

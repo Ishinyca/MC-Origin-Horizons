@@ -10,6 +10,14 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "371D6A80DB6DAF11"
+	images: [{
+		height: 2.0d
+		image: "ftbquests:textures/chapter_names/stellaris.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 2.5d
+		y: -7.5d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [

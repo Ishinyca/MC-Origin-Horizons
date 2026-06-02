@@ -10,6 +10,14 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "0EE254FA73AF87A1"
+	images: [{
+		height: 2.0d
+		image: "ftbquests:textures/chapter_names/apotheosis.png"
+		rotation: 0.0d
+		width: 11.0d
+		x: -2.0d
+		y: -4.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

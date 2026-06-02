@@ -8,7 +8,7 @@
 	chapter.231570DE6A7FCD52.title: "When Dungeons Arise"
 	chapter.29236C355EF25B6B.title: "Basic Storage"
 	chapter.29B6D19079E519CC.title: "Iron's Spells 'n Spellbooks"
-	chapter.2B4C63DE293D5BA8.title: "Dragons Mount Remastered"
+	chapter.2B4C63DE293D5BA8.title: "Dragon Mounts Remastered"
 	chapter.3013F0DF90A7C5A4.title: "Helpful Tips"
 	chapter.371D6A80DB6DAF11.title: "Stellaris"
 	chapter.37C8384647C2943F.title: "&2Chapter 4&r: &6To The Skies!"
@@ -37,6 +37,11 @@
 	file.0000000000000001.title: "&f&lMC Resonance Horizons!&r"
 	quest.01D8FDF4AC637C7B.quest_subtitle: "EVEN BETTER ARMOR?!"
 	quest.01D8FDF4AC637C7B.title: "&cBasic Survival Part IV"
+	quest.0211210857DE6FE8.quest_desc: [
+		"In the Centrifuge machine,"
+		"- 1 bucket of Strange Matter"
+		"- 1 Dubious Container"
+	]
 	quest.02CB075775B6AD52.title: "Minishroom"
 	quest.0331AC0315EBB66D.quest_desc: ["Nestled among the trees, this lively tavern is usually a haven for villagers looking to unwind. Yet when the ale flows too freely, even the most peaceful patrons turn aggressive, defending their pub with surprising ferocity. Enter carefully or risk being caught in a drunken brawl."]
 	quest.0331AC0315EBB66D.quest_subtitle: "Find a Greenwood Pub"
@@ -48,6 +53,7 @@
 	quest.05ED70A25DD22273.quest_subtitle: "GLOWY IN OVERWORLD?!"
 	quest.0707DB7E6D8634B3.title: "Purely Vanilla"
 	quest.0792B98729B3AC1B.quest_desc: ["Should there be more useful tips in this section? Provide suggestions on the Discord server!"]
+	quest.07A1A6AC6964A268.quest_desc: ["There are various liquids that can be produced with the Refinery. Check out the JEI to see what the Refinery can produce."]
 	quest.08358C86AE890F9D.title: "&6&lBounty:&r Kill 25x Skeletons"
 	quest.09A04F0B95B69A6A.quest_desc: [
 		"Another upgrade."
@@ -63,11 +69,14 @@
 	quest.0B89EB36AC565461.quest_desc: ["Deep within this subterranean city, the heat of molten lava and the hum of industry dominate the air. The Nether’s influence is strong here, fueling forges and animating Forge Sentinels that patrol every corridor. Only those prepared for fire and steel will survive, and claim the treasures forged within."]
 	quest.0B89EB36AC565461.quest_subtitle: "Find a Foundry"
 	quest.0BE964743899839C.quest_desc: ["Throw and hit 24 entities with Pollen Puff (Other players count)"]
+	quest.0C8AAC145B243881.quest_desc: ["&5Strange Matter&r"]
+	quest.0C8AAC145B243881.quest_subtitle: "Strange"
 	quest.0CE50A7F4F1A0E4D.quest_desc: ["ladder stretches skyward, disappearing into the clouds. At its top floats a strange, floating vessel. What secrets or dangers await above, none can say… except that the view alone is enough to make even the bravest adventurer’s stomach turn."]
 	quest.0CE50A7F4F1A0E4D.quest_subtitle: "Find a Small Blimp"
 	quest.0D0736A86261B836.title: "Contraptions"
 	quest.0D95EEE56AB91A43.quest_desc: ["&lOops. Looks like you died somehow.&r"]
 	quest.0D95EEE56AB91A43.title: "Died to Skill Issue"
+	quest.0DAE85314DB5BEA7.quest_subtitle: "Particles!"
 	quest.0E27EFC568902A57.quest_desc: [
 		"&6Beeeeeeeeeeees.&r"
 		""
@@ -229,6 +238,7 @@
 	]
 	quest.2CB057CB79D54C84.quest_desc: ["Kill 32 Spiders (Cave Spiders do not count)"]
 	quest.2CD8A17598283E7C.quest_subtitle: "Regular cables"
+	quest.2D39F837ECC5B325.quest_desc: ["Just another furnace but better than vanilla furnace"]
 	quest.2D89CF138A4FCB89.title: "Logistic Transporter"
 	quest.2DB4F395EA26DF4B.quest_subtitle: "Find a Coliseum"
 	quest.2DCCC1C463471165.quest_desc: ["You only need to defeat 12 of the 16 bosses to enter The End. If you ever lose an eye, it will cost you 10 levels to replace it."]
@@ -319,7 +329,7 @@
 		"To create the portal, you will need Minecraft flowers and a 2x2 water as shown in the picture below."
 		""
 		""
-		"{image:ftbquests:textures/portal_twilight_forest.png width:100 height:100 align:center}"
+		"{image:ftbquests:textures/chapter_1/portal_twilight_forest.png width:100 height:100 align:center}"
 	]
 	quest.4C45EEAE3C7A412E.quest_desc: ["Each dimension that are used for progression are locked behind certain achievements or items. You must complete them or obtain the items before you are able to enter the dimensions."]
 	quest.4C45EEAE3C7A412E.title: "How to Access Specific Dimensions"
@@ -488,6 +498,7 @@
 	task.1E36449F10C34CFB.title: "Any #the_bumblezone:armors/leggings"
 	task.1E654FEF066282AA.title: "Defeat The Chaos Dragon"
 	task.1F978E3CD3313150.title: "Beat the Gold Dungeon"
+	task.1FE24E556DBD8E67.title: "Budding Amethyst"
 	task.2152AF3371211140.title: "test"
 	task.220B502B0FCD9DB4.title: "How to Access The Nether Dimension"
 	task.224D501996D6FE7F.title: "Any #minecraft:flowers"

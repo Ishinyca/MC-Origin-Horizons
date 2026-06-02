@@ -7,6 +7,14 @@
 		id: "mekanism:basic_energy_cube"
 	}
 	id: "3D401D98C6105B09"
+	images: [{
+		height: 2.0d
+		image: "ftbquests:textures/chapter_names/basic_power.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: 0.0d
+		y: -4.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

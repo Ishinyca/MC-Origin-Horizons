@@ -7,6 +7,14 @@
 		id: "ars_nouveau:creative_spell_book"
 	}
 	id: "42D3B79DDFDA06E0"
+	images: [{
+		height: 2.0d
+		image: "ftbquests:textures/chapter_names/ars_nouveau.png"
+		rotation: 0.0d
+		width: 13.0d
+		x: 11.0d
+		y: -7.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [

@@ -7,6 +7,14 @@
 		id: "dmr:dragon_whistle.white"
 	}
 	id: "2B4C63DE293D5BA8"
+	images: [{
+		height: 2.0d
+		image: "ftbquests:textures/chapter_names/dragon_mounts_remastered.png"
+		rotation: 0.0d
+		width: 13.0d
+		x: 1.0d
+		y: -5.0d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

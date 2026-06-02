@@ -3,7 +3,18 @@
 	default_quest_shape: ""
 	filename: "theurgy"
 	group: "43F67A65C7C2CE11"
+	icon: {
+		id: "theurgy:mercury_catalyst"
+	}
 	id: "636897E6C19C8E62"
+	images: [{
+		height: 2.0d
+		image: "ftbquests:textures/chapter_names/theurgy.png"
+		rotation: 0.0d
+		width: 8.0d
+		x: -5.0d
+		y: 3.5d
+	}]
 	order_index: 3
 	quest_links: [ ]
 	quests: [

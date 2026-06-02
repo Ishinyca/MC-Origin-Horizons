@@ -7,6 +7,14 @@
 		id: "justdirethings:celestigem_paxel"
 	}
 	id: "3CD86C62FC6997B0"
+	images: [{
+		height: 2.0d
+		image: "ftbquests:textures/chapter_names/justdirethings.png"
+		rotation: 0.0d
+		width: 13.0d
+		x: 0.0d
+		y: -6.0d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -1157,8 +1165,8 @@
 				item: { count: 1, id: "justdirethings:refined_t3_fluid_bucket" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -5.0d
+			x: -4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6FDC0FE2944CFBDA"]
@@ -1186,8 +1194,8 @@
 				item: { count: 1, id: "justdirethings:refined_t4_fluid_bucket" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -6.5d
+			x: -5.5d
+			y: -4.5d
 		}
 	]
 }

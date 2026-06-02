@@ -10,20 +10,20 @@
 	images: [
 		{
 			height: 13.0d
-			image: "ftbquests:textures/bosses_book_layout.png"
+			image: "ftbquests:textures/end_progression/bosses_book_layout.png"
 			rotation: 0.0d
 			width: 20.0d
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			height: 12.0d
-			image: "ftbquests:textures/bosses_logo.png"
+			height: 3.0d
+			image: "ftbquests:textures/chapter_names/bosses.png"
 			order: -1
 			rotation: 0.0d
 			width: 15.0d
 			x: 0.0d
-			y: -7.0d
+			y: -6.0d
 		}
 	]
 	order_index: 3

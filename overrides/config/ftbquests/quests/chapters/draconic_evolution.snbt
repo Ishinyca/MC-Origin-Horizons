@@ -7,14 +7,24 @@
 		id: "draconicevolution:dragon_heart"
 	}
 	id: "001A01E1F21ECEF6"
-	images: [{
-		height: 1.0d
-		image: "draconicevolution:block/overworld_draconium_ore"
-		rotation: 0.0d
-		width: 1.0d
-		x: -2.5d
-		y: 1.0d
-	}]
+	images: [
+		{
+			height: 1.0d
+			image: "draconicevolution:block/overworld_draconium_ore"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:textures/chapter_names/draconic_evolution.png"
+			rotation: 0.0d
+			width: 13.0d
+			x: 3.0d
+			y: -3.5d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [

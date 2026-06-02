@@ -1,4 +1,5 @@
 {
+	autofocus_id: "4F8086008B90633D"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "apothic_enchanting"
@@ -7,6 +8,14 @@
 		id: "minecraft:enchanting_table"
 	}
 	id: "119FF81A2775B16F"
+	images: [{
+		height: 2.0d
+		image: "ftbquests:textures/chapter_names/apothic_enchanting.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: 0.0d
+		y: -2.0d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

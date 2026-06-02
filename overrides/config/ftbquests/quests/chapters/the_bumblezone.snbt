@@ -7,6 +7,14 @@
 		id: "the_bumblezone:honey_compass"
 	}
 	id: "39DBA9F473D4BD49"
+	images: [{
+		height: 2.0d
+		image: "ftbquests:textures/chapter_names/the_bumblezone.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 3.5d
+		y: -3.0d
+	}]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
