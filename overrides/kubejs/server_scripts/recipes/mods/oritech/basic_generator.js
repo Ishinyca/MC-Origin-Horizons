@@ -1,5 +1,4 @@
 ServerEvents.recipes(event => {
-	event.remove({id:'oritech:crafting/basicgen'});
 	event.shaped(
 		Item.of('oritech:basic_generator_block'),
 		[
