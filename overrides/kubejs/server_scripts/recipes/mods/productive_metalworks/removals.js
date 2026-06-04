@@ -1,6 +1,9 @@
 const moltenOreIdRemoval = [
     // Unused
     'productivemetalworks:alloying/molten_invar',
+
+    // Recipe will be updated
+    'productivemetalworks:crafting/fire_clay',
     
     // Comments after are the original values
     // Gold Related
