@@ -103,15 +103,15 @@ pitcherPlantPipeDrainRate = 100000
 	#How much energy should a Basic Spectre Coil transfer per tick?
 	# Default: 1024
 	# Range: > 1
-	basicRate = 512
+	basicRate = 256
 	#How much energy should a Redstone Spectre Coil transfer per tick?
 	# Default: 4096
 	# Range: > 1
-	redstoneRate = 2048
+	redstoneRate = 512
 	#How much energy should an Ender Spectre Coil transfer per tick?
 	# Default: 20480
 	# Range: > 1
-	enderRate = 10240
+	enderRate = 1024
 	#How much energy should a Number Spectre Coil generate per tick?
 	# Default: 128
 	# Range: > 1
@@ -119,23 +119,23 @@ pitcherPlantPipeDrainRate = 100000
 	#How much energy should a Genesis Spectre Coil generate per tick?
 	# Default: 10000000
 	# Range: > 1
-	genesisRate = 5000000
+	genesisRate = 1000000
 	#How fast should the Basic Spectre Charger charge items?
 	# Default: 1024
 	# Range: > 1
-	chargerBasic = 512
+	chargerBasic = 256
 	#How fast should the Redstone Spectre Charger charge items?
 	# Default: 4096
 	# Range: > 1
-	chargerRedstone = 2048
+	chargerRedstone = 512
 	#How fast should the Ender Spectre Charger charge items?
 	# Default: 20480
 	# Range: > 1
-	chargerEnder = 10240
+	chargerEnder = 1024
 	#How fast should the Genesis Spectre Charger charge items?
 	# Default: 2147483647
 	# Range: > 1
-	chargerGenesis = 5000000
+	chargerGenesis = 1000000
 	#What is the chance that the Spectre Imbue will cancel incoming damage?
 	# Default: 0.1
 	# Range: 0.0 ~ 1.0
