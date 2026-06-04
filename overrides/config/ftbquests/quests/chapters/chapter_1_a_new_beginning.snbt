@@ -317,13 +317,13 @@
 			]
 			tasks: [
 				{
-					count: 112L
+					count: 120L
 					id: "52C7090A605B1D7B"
 					item: { count: 1, id: "productivemetalworks:fire_clay" }
 					type: "item"
 				}
 				{
-					count: 112L
+					count: 120L
 					id: "2587C6D1E68A9780"
 					item: { count: 1, id: "productivemetalworks:fire_brick" }
 					type: "item"
