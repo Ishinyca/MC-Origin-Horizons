@@ -20,7 +20,7 @@
 	inject_level_into_mobs = true
 	#Whether to inject level information into player nameplates
 	#When false, player nameplates show only the vanilla name without level info
-	inject_level_into_players = true
+	inject_level_into_players = false
 	#Whether to override the default nameplate visibility for mobs (non-players)
 	#When false, vanilla decides when mob nameplates are shown (sneaking, spectator, etc.)
 	#Level injection (if enabled) still applies when vanilla shows the nameplate
@@ -28,7 +28,7 @@
 	#Whether to override the default nameplate visibility for players
 	#When false, vanilla decides when player nameplates are shown (sneaking, spectator, etc.)
 	#Level injection (if enabled) still applies when vanilla shows the nameplate
-	override_player_nameplate_visibility = true
+	override_player_nameplate_visibility = false
 
 [integration_options]
 	#Show entity levels in Jade tooltips (requires Jade to be installed)
