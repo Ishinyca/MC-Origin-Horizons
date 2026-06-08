@@ -618,6 +618,7 @@
 					id: "stellaris:moon_desh_ore"
 				}
 				id: "4C76176BCA66FFED"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "stellaris:moon_desh_ore"

@@ -168,6 +168,7 @@
 			id: "4075E21C03A2125E"
 			tasks: [{
 				id: "1C916CE7ADDB44E3"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "deeperdarker:ancient_vase"

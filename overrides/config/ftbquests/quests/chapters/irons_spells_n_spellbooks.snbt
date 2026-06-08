@@ -3,6 +3,17 @@
 	default_quest_shape: ""
 	filename: "irons_spells_n_spellbooks"
 	group: "43F67A65C7C2CE11"
+	icon: {
+		components: {
+			"irons_spellbooks:spell_container": {
+				data: [ ]
+				maxSpells: 8
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+		id: "irons_spellbooks:gold_spell_book"
+	}
 	id: "506A672CDC854D87"
 	images: [{
 		height: 3.0d

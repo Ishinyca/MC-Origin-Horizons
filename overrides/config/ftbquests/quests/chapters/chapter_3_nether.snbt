@@ -89,6 +89,7 @@
 					id: "minecraft:ancient_debris"
 				}
 				id: "3106BB511CC1D87F"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "minecraft:ancient_debris"
@@ -284,6 +285,7 @@
 				}
 				{
 					id: "1AC5F2797A975AEB"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "aether:aether_portal"

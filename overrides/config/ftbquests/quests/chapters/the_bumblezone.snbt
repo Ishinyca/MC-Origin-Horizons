@@ -107,6 +107,7 @@
 					id: "the_bumblezone:beehemoth_spawn_egg"
 				}
 				id: "60EAFDB80D75D273"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "the_bumblezone:beehemoth"

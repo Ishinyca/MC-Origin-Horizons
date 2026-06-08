@@ -157,6 +157,7 @@
 					id: "mcwholidays:gravestone"
 				}
 				id: "2444A64C6E9D8FC6"
+				observation_type: "block"
 				observe_type: 0
 				timer: 0L
 				to_observe: "epitaphs:grave"

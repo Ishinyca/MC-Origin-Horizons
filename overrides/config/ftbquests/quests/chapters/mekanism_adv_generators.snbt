@@ -1,0 +1,1201 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mekanism_adv_generators"
+	group: "131C2868EBD0FC7F"
+	icon: {
+		id: "mekanismadvancedgenerators:creative_solar_panel"
+	}
+	id: "2D73A947143787EF"
+	images: [{
+		height: 3.0d
+		image: "ftbquests:textures/chapter_names/mekanism_advanced_generators.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: 0.0d
+		y: -2.5d
+	}]
+	order_index: 6
+	quest_links: [
+		{
+			id: "4511E216AB1A6DCC"
+			linked_quest: "5440B269B292C1C2"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "39FB4B52CB6DDD47"
+			linked_quest: "766E243DD58C3A37"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "3935689FC8E72EEB"
+			linked_quest: "2450CA876EBADF5A"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "7A13EF0F13E7B279"
+			linked_quest: "6F06D2E9343A3CD2"
+			x: 0.5d
+			y: 0.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"5440B269B292C1C2"
+				"4D5B0E6F0B654DBC"
+			]
+			id: "03EFC49628EB49B0"
+			rewards: [
+				{
+					id: "31D2CF11DE98ADC8"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "15CE094E768E9342"
+					item: {
+						count: 1
+						id: "mekanism:energy_tablet"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "656B168CB0F1F3E7"
+				item: { count: 1, id: "mekanismadvancedgenerators:advanced_solar_panel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"03EFC49628EB49B0"
+				"0BF4190C3CB19DB9"
+			]
+			id: "5FEEE70088618113"
+			rewards: [
+				{
+					id: "254DC648EFA55E01"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3D707625FB22943B"
+					item: {
+						count: 1
+						id: "mekanism:energy_tablet"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "748CC514DCB2E931"
+				item: { count: 1, id: "mekanismadvancedgenerators:hybrid_solar_panel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5FEEE70088618113"
+				"3D116A4CD0D14939"
+				"0C5F9A7DD2D56B53"
+			]
+			id: "53520CE87B4284AC"
+			rewards: [
+				{
+					id: "3B6D4A0101E4E360"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "38C1E5EB0221F1D3"
+					item: {
+						count: 1
+						id: "mekanism:energy_tablet"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "518B2C7AFE67C1D9"
+				item: { count: 1, id: "mekanismadvancedgenerators:ultimate_solar_panel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"53520CE87B4284AC"
+				"4E6823DC3BBCD975"
+				"72AE679D745AC899"
+			]
+			id: "72C7370734016EE6"
+			rewards: [
+				{
+					id: "254D0EBDE12BF0D5"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4DA878C10E87F166"
+					item: {
+						count: 1
+						id: "mekanism:energy_tablet"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78FBC8A5BD3B4DE1"
+				item: { count: 1, id: "mekanismadvancedgenerators:quantum_solar_panel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"72C7370734016EE6"
+				"55CA7C9DFA7C107E"
+				"4A95102F73F66C71"
+			]
+			id: "65B00C0DE5B8A515"
+			rewards: [
+				{
+					id: "6E8AF2DB3137A5B9"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "699E2EC412608E03"
+					item: {
+						count: 1
+						id: "mekanism:energy_tablet"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34F9AE9BCBCDB475"
+				item: { count: 1, id: "mekanismadvancedgenerators:spectral_solar_panel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"65B00C0DE5B8A515"
+				"583B6CDD28079BC2"
+				"39645F5F853777AE"
+			]
+			id: "4EC73C320CECF82A"
+			rewards: [
+				{
+					id: "0197214FF8BC8269"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "38C1640C3A3A5558"
+					item: {
+						count: 1
+						id: "mekanism:energy_tablet"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "356003DACD6ACDAD"
+				item: { count: 1, id: "mekanismadvancedgenerators:singular_solar_panel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4EC73C320CECF82A"
+				"166A4764F3D58481"
+				"1843ED86BCC6EEB2"
+			]
+			id: "52E2025BBC5CF288"
+			rewards: [
+				{
+					id: "5CEA8BCD86802143"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "799766A8363CC842"
+					item: {
+						count: 1
+						id: "mekanism:energy_tablet"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "58E2F50B0CD5931F"
+				item: { count: 1, id: "mekanismadvancedgenerators:light_absorbing_solar_panel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"52E2025BBC5CF288"
+				"7A0E9224E3EE1D2B"
+				"784806B466741E4D"
+			]
+			id: "677354D61FBF0844"
+			rewards: [
+				{
+					id: "0F9E55722A932C1D"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2D7F8A1929CF6AC4"
+					item: {
+						count: 1
+						id: "mekanism:energy_tablet"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "19EE2C25DA25A95F"
+				item: { count: 1, id: "mekanismadvancedgenerators:photonic_solar_panel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["03EFC49628EB49B0"]
+			id: "30D6C104029F8FA2"
+			rewards: [
+				{
+					id: "58FF69A19111588D"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1201DF04EA81A9B4"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "21A09FE907FF3CA1"
+				item: { count: 1, id: "mekanismadvancedgenerators:big_advanced_solar_generator" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5FEEE70088618113"]
+			id: "783C84A62C8188DD"
+			rewards: [
+				{
+					id: "0BD6AA02D66F0449"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7B74C6E8B58662C0"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "659A0D7B92F61CAC"
+				item: { count: 1, id: "mekanismadvancedgenerators:big_hybrid_solar_generator" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["53520CE87B4284AC"]
+			id: "5ABF9E09CBC29940"
+			rewards: [
+				{
+					id: "6907169020FEE480"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5E1C468948BBDB1B"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F7A646A5881DA4F"
+				item: { count: 1, id: "mekanismadvancedgenerators:big_ultimate_solar_generator" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["72C7370734016EE6"]
+			id: "18A0E8739E8914CA"
+			rewards: [
+				{
+					id: "53DAE8984BF07527"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0F75A07544650795"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "664F61FE136142F5"
+				item: { count: 1, id: "mekanismadvancedgenerators:big_quantum_solar_generator" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["65B00C0DE5B8A515"]
+			id: "71D12E109E5B6FDB"
+			rewards: [
+				{
+					id: "37D17C4D77C378DC"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6A87087539527EFF"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0EAA2C0D8327B22F"
+				item: { count: 1, id: "mekanismadvancedgenerators:big_spectral_solar_generator" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4EC73C320CECF82A"]
+			id: "6498EED4BB193F36"
+			rewards: [
+				{
+					id: "6FABFFFD52A6E555"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "45C20D4C00B51100"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E215CAE36796A1B"
+				item: { count: 1, id: "mekanismadvancedgenerators:big_singular_solar_generator" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["52E2025BBC5CF288"]
+			id: "1A76190632864B1C"
+			rewards: [
+				{
+					id: "38D7E2EB9AF0B7E0"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "11083A382D7230C0"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E6FA22AD056FD8C"
+				item: { count: 1, id: "mekanismadvancedgenerators:big_light_absorbing_solar_generator" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["677354D61FBF0844"]
+			id: "3911B7CC0B3400B9"
+			rewards: [
+				{
+					id: "04D7D0B20E300B33"
+					item: {
+						count: 1
+						id: "magic_coins:crystal_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "52FDF3FAFA8866CC"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A69D24C6C145441"
+				item: { count: 1, id: "mekanismadvancedgenerators:big_photonic_solar_generator" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["766E243DD58C3A37"]
+			id: "642328D56EF93CE2"
+			rewards: [
+				{
+					id: "5A443F78153A626C"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4A8B57CDE64C9A2C"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "05AE8CD9B24EF93B"
+				item: { count: 1, id: "mekanismadvancedgenerators:cosmic_universal_cable" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["642328D56EF93CE2"]
+			id: "6C3790D72344459E"
+			rewards: [
+				{
+					id: "110B15B5F4BFECC8"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "61760D0933E7C93F"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A358DF7E776227A"
+				item: { count: 1, id: "mekanismadvancedgenerators:supreme_universal_cable" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C3790D72344459E"]
+			id: "6B39C7BDB1D8C6FD"
+			rewards: [
+				{
+					id: "779546E2BBD98A4E"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3E9157BCBF14C007"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "463E5FD4E431460F"
+				item: { count: 1, id: "mekanismadvancedgenerators:infinity_universal_cable" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6B39C7BDB1D8C6FD"]
+			id: "41EEA714A2878643"
+			rewards: [
+				{
+					id: "0205EAEA9435E275"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "44637D78AB187CDC"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0CD507FE688C7EC1"
+				item: { count: 1, id: "mekanismadvancedgenerators:galactic_universal_cable" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2450CA876EBADF5A"]
+			id: "0F12176537FBA49A"
+			rewards: [
+				{
+					id: "01C640CE48772F75"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1117A477219D5B23"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E873714F3C82DF0"
+				item: { count: 1, id: "mekanismadvancedgenerators:cosmic_energy_cube" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0F12176537FBA49A"]
+			id: "2390F12DF7E96199"
+			rewards: [
+				{
+					id: "12D070C483E92E77"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "62DABAE2F509F442"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D46F3D3DC3D3BEC"
+				item: { count: 1, id: "mekanismadvancedgenerators:supreme_energy_cube" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2390F12DF7E96199"]
+			id: "51FF6B99DADE6023"
+			rewards: [
+				{
+					id: "6836FE8B661AD09A"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4AFB8D8626CCFA6C"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "711864082DCDD32E"
+				item: { count: 1, id: "mekanismadvancedgenerators:infinity_energy_cube" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["51FF6B99DADE6023"]
+			id: "5DBD4605FAE24BA7"
+			rewards: [
+				{
+					id: "37FBA9FB89776C59"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6E2B53B8886ABAFE"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A88C5D3097E7621"
+				item: { count: 1, id: "mekanismadvancedgenerators:galactic_energy_cube" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6F06D2E9343A3CD2"]
+			id: "3D116A4CD0D14939"
+			rewards: [
+				{
+					id: "6533610F8534C508"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6702D8281F0CAFB5"
+					item: {
+						count: 1
+						id: "mekanism:alloy_reinforced"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "272762F718CF17AE"
+				item: { count: 1, id: "mekanismadvancedgenerators:improved_energy_tablet" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3D116A4CD0D14939"]
+			id: "4E6823DC3BBCD975"
+			rewards: [
+				{
+					id: "461CE60681198223"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1285F540CCB5BC91"
+					item: {
+						count: 1
+						id: "mekanism:alloy_reinforced"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "18A2D3ECF1CB2D8B"
+				item: { count: 1, id: "mekanismadvancedgenerators:quantum_energy_tablet" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4E6823DC3BBCD975"]
+			id: "55CA7C9DFA7C107E"
+			rewards: [
+				{
+					id: "4E9782A8FBEE938A"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "65C31775F80F2624"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "4F0BDD5F804FFA16"
+				item: { count: 1, id: "mekanismadvancedgenerators:spectral_energy_tablet" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["55CA7C9DFA7C107E"]
+			id: "583B6CDD28079BC2"
+			rewards: [
+				{
+					id: "5D9AA5004C33CA5A"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "68E73AE515523BE4"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "61B912F975683169"
+				item: { count: 1, id: "mekanismadvancedgenerators:singular_energy_tablet" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["583B6CDD28079BC2"]
+			id: "166A4764F3D58481"
+			rewards: [
+				{
+					id: "0ADF523BBFDC9639"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6B0E12AA5EA3E18D"
+					item: {
+						count: 1
+						id: "mekanism:alloy_atomic"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6E8B046D5D4C019B"
+				item: { count: 1, id: "mekanismadvancedgenerators:light_absorbing_energy_tablet" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["166A4764F3D58481"]
+			id: "7A0E9224E3EE1D2B"
+			rewards: [
+				{
+					id: "7D39AC1D386D91E8"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "59D6C5D8092C9C7A"
+					item: {
+						count: 1
+						id: "mekanism:pellet_antimatter"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "4D121A10F0C6EA7A"
+				item: { count: 1, id: "mekanismadvancedgenerators:photonic_energy_tablet" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 12.0d
+		}
+		{
+			id: "4D5B0E6F0B654DBC"
+			rewards: [
+				{
+					id: "2C386ABFC6244EF7"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5D00A6A920B712CB"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 3L
+				id: "4F35493BACB7A1C2"
+				item: { count: 1, id: "mekanismadvancedgenerators:carbone_solar_element" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			id: "0BF4190C3CB19DB9"
+			rewards: [
+				{
+					id: "1437A2AADBE5CA1B"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "770C1C15E0852768"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 3L
+				id: "416B73725887A431"
+				item: { count: 1, id: "mekanismadvancedgenerators:hybrid_solar_element" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "0C5F9A7DD2D56B53"
+			rewards: [
+				{
+					id: "2D62EB679569CC5A"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "72A43D3F0BF69AC1"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 3L
+				id: "55C75E1CFB6B3E01"
+				item: { count: 1, id: "mekanismadvancedgenerators:improved_hybrid_solar_element" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			id: "72AE679D745AC899"
+			rewards: [
+				{
+					id: "414C51CA4F79E0DF"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "18900DE08C070FDE"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 3L
+				id: "646C462B6B10375D"
+				item: { count: 1, id: "mekanismadvancedgenerators:quantum_solar_element" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			id: "4A95102F73F66C71"
+			rewards: [
+				{
+					id: "3348455F7C62397F"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "795655147D4099D0"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 3L
+				id: "3CBFD8085B03150C"
+				item: { count: 1, id: "mekanismadvancedgenerators:spectral_solar_element" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			id: "39645F5F853777AE"
+			rewards: [
+				{
+					id: "595D1AC383C04239"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2DE58E282C3E9130"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 3L
+				id: "55992E5EC6576A47"
+				item: { count: 1, id: "mekanismadvancedgenerators:singular_solar_element" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			id: "1843ED86BCC6EEB2"
+			rewards: [
+				{
+					id: "17E36641C2E219C2"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6344AD94085B859B"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 3L
+				id: "44E9829AA3CE3382"
+				item: { count: 1, id: "mekanismadvancedgenerators:light_absorbing_solar_element" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			id: "784806B466741E4D"
+			rewards: [
+				{
+					id: "37CF8565388E7782"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6E5B3D5A236F9A29"
+					item: {
+						count: 1
+						id: "mekanism:ingot_osmium"
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				count: 3L
+				id: "338694570965B23F"
+				item: { count: 1, id: "mekanismadvancedgenerators:photonic_solar_element" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 12.0d
+		}
+	]
+}

@@ -81,6 +81,7 @@
 						id: "minecraft:budding_amethyst"
 					}
 					id: "317C1A71AD1FC335"
+					observation_type: "block"
 					observe_type: 0
 					timer: 0L
 					to_observe: "minecraft:budding_amethyst"

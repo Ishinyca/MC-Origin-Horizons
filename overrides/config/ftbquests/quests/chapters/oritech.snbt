@@ -27,7 +27,7 @@
 			y: 4.5d
 		}
 	]
-	order_index: 6
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -1064,6 +1064,7 @@
 					id: "minecraft:budding_amethyst"
 				}
 				id: "1FE24E556DBD8E67"
+				observation_type: "block"
 				observe_type: 0
 				optional_task: true
 				timer: 0L
