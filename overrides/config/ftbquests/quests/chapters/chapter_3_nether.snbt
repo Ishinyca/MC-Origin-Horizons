@@ -311,14 +311,14 @@
 					id: "542B84025E7CF1A6"
 					item: {
 						count: 1
-						id: "cataclysm:ignitium_upgrade_smithing_template"
+						id: "kubejs:dark_matter_smithing_template"
 					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "3B118E876BC8E51C"
-				item: { count: 1, id: "cataclysm:ignitium_upgrade_smithing_template" }
+				item: { count: 1, id: "kubejs:dark_matter_smithing_template" }
 				type: "item"
 			}]
 			x: 3.0d
