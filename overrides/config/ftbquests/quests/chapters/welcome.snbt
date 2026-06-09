@@ -1,6 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "welcome"
 	group: "3F5D023B3188755E"
 	icon: {
@@ -43,6 +44,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			disable_toast: true
 			id: "321BE79B988D7AC1"
 			rewards: [{
 				id: "17789B5E04BD6D14"
@@ -60,6 +62,7 @@
 			y: 2.0d
 		}
 		{
+			disable_toast: true
 			id: "16526B624CB886B6"
 			rewards: [{
 				id: "062B446BA924828C"

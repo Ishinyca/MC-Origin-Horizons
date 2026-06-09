@@ -103,6 +103,7 @@
 			dependencies: [
 				"0CE63C22BB61B867"
 				"6FAD3ECC0B098BF4"
+				"74B991367C0922C5"
 			]
 			id: "62D285AFAD2CC747"
 			rewards: [{
@@ -202,14 +203,30 @@
 			dependencies: ["5393717987D4DEFD"]
 			hide_dependency_lines: true
 			id: "74B991367C0922C5"
-			rewards: [{
-				id: "68382CA97B8038E7"
-				item: {
-					count: 1
-					id: "magic_coins:gold_coin"
+			rewards: [
+				{
+					id: "68382CA97B8038E7"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "40776B50B8AC0C4E"
+					item: {
+						components: {
+							"stellaris:fluid": {
+								amounts: [L;0L]
+								fluids: ["minecraft:empty"]
+							}
+						}
+						count: 1
+						id: "stellaris:oxygen_tank"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6E62A9C0D5449AE5"
 				item: { components: { "stellaris:fluid": { amounts: [L;0L], fluids: ["minecraft:empty"] } }, count: 1, id: "stellaris:oxygen_tank" }
@@ -478,8 +495,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "29DB42D2A6B32F7C"
-				item: { count: 1, id: "actuallyadditions:coal_generator" }
+				id: "31D43D78F3CC0AD9"
+				item: { count: 1, id: "stellaris:coal_generator" }
 				type: "item"
 			}]
 			x: -1.0d

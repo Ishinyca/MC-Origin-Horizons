@@ -932,5 +932,266 @@
 			x: 0.0d
 			y: 10.5d
 		}
+		{
+			id: "5BC8AC26BAC61C76"
+			rewards: [
+				{
+					id: "7574FEA5ADF1C168"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5BADFECA21B3F5A5"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2588222D7C22BF6F"
+				item: { count: 1, id: "theurgy:divination_rod_t1" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			id: "70372768BE43DDFE"
+			rewards: [
+				{
+					id: "6784B42AA0974FD2"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "140958DD0EEE9516"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "750D38981CAE2495"
+				item: { count: 1, id: "theurgy:divination_rod_t2" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			id: "548B5158AA4614C8"
+			rewards: [
+				{
+					id: "653226BC089523C5"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "577789CB2DBBFCA7"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7DEB7D2987647551"
+				item: { count: 1, id: "theurgy:divination_rod_t3" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "5895A126414605CB"
+			rewards: [
+				{
+					id: "05505D1DB9C1C88A"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "364E0020AD03AB2A"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2C818F57BEC5A819"
+				item: { count: 1, id: "theurgy:divination_rod_t4" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			id: "27A4578464C571AD"
+			rewards: [
+				{
+					id: "47AFC7CA0CCFB0F5"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "276B419245AACFA8"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2A0516A95E615FDE"
+				item: { count: 1, id: "theurgy:sulfur_attuned_divination_rod_abundant" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			id: "37BB4B2F8351BDA9"
+			rewards: [
+				{
+					id: "211588FCB2AB49E1"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "49AC30FFDAAD4AB1"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "46142C44B3CBE747"
+				item: { count: 1, id: "theurgy:sulfur_attuned_divination_rod_common" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			id: "7ED6780A52E47E86"
+			rewards: [
+				{
+					id: "09501E05C8626A8E"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "745C67A4D0AC269F"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "31BD80110E420BBA"
+				item: { count: 1, id: "theurgy:sulfur_attuned_divination_rod_rare" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "60308E1C2DDB673D"
+			rewards: [
+				{
+					id: "5B752B6F31775198"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "223D3A5E6ADA64B1"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0F5B394A122DE0FC"
+				item: { count: 1, id: "theurgy:sulfur_attuned_divination_rod_precious" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "46F0C41A55CF1F59"
+			rewards: [
+				{
+					id: "39F499FAC96FBDE1"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "13E6DCF3BFCA69C7"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6824FE38AF6D9D17"
+				item: { components: { "theurgy:divination_linked_block": "minecraft:budding_amethyst" }, count: 1, id: "theurgy:amethyst_divination_rod" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
 	]
 }

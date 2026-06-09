@@ -19,7 +19,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2851A90CE80B1F31"]
 			id: "25742EADF8C7C792"
 			rewards: [{
 				id: "47B2FB6D1B2C0C06"
@@ -64,7 +63,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["2851A90CE80B1F31"]
 			id: "4A151DD3C490E189"
 			rewards: [{
 				id: "4E7F462FA0C2EFD6"
@@ -84,7 +82,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["2851A90CE80B1F31"]
 			id: "63486510E9822BAB"
 			rewards: [{
 				id: "147154E562869C1A"
@@ -104,7 +101,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["2851A90CE80B1F31"]
 			id: "552649C3869F7A25"
 			rewards: [{
 				id: "4FC7629A9AF7537C"
@@ -124,7 +120,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["2851A90CE80B1F31"]
 			id: "36ABD9AC304A98AE"
 			rewards: [{
 				id: "3BF9E09FB718467C"
@@ -144,7 +139,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["2851A90CE80B1F31"]
 			id: "23F1286AB43080BB"
 			rewards: [{
 				id: "1A3B74FA3B9C466E"
@@ -164,7 +158,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["2851A90CE80B1F31"]
 			id: "43183A5B9EB8FEC4"
 			rewards: [{
 				id: "25705A2414B27567"
@@ -183,7 +176,6 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["2851A90CE80B1F31"]
 			id: "3B89F08F68F4C280"
 			rewards: [{
 				id: "4E51B36F0C70999F"
