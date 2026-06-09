@@ -12,15 +12,16 @@ ServerEvents.recipes(event => {
     ).id('constructionwand:stone_wand')
 
     // Iron Wand - Tier 2
-    event.recipes.ars_nouveau.imbuement(
-        'constructionwand:stone_wand',
-        'constructionwand:iron_wand',
-        650,
+    event.recipes.ars_nouveau.enchanting_apparatus(
         [
             'minecraft:iron_ingot',
             'ars_nouveau:manipulation_essence',
             'justdirethings:polymorphic_catalyst'
-        ]
+        ],
+        'constructionwand:stone_wand',
+        'constructionwand:iron_wand',
+        650,
+        true // keep nbt of reagent
     ).id('constructionwand:iron_wand')
 
     // Diamond Wand - Tier 3
