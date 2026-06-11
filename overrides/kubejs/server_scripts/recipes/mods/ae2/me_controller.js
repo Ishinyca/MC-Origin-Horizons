@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
             'ae2:fluix_crystal',
             'ae2:fluix_crystal'
         ], //input
-        'ae2:engineering_processor', // reagent
+        'ae2:not_so_mysterious_cube', // reagent
         'ae2:controller', // output
         2000
     ).id('ae2:controller')
