@@ -26,7 +26,7 @@ ServerEvents.tags("entity_type", event => {
         "irons_spellbooks:archevoker",
         "irons_spellbooks:apothecarist",
         "irons_spellbooks:cryomancer",
-        "artifacts:mimic",
+        "irons_spellbooks:cursed_armor_stand",
         "irons_spellbooks:priest",
         "irons_spellbooks:cultist",
         /mutantmonsters:.*/,
@@ -38,6 +38,7 @@ ServerEvents.tags("entity_type", event => {
         "cataclysm:modern_remnant",
         "dmr:dragon",
         "aether:mimic",
+        "artifacts:mimic",
         "aether:valkyrie",
     ])
 
@@ -55,7 +56,8 @@ ServerEvents.tags("entity_type", event => {
     // Nope to spawning too along with Capturing Inheritance
     event.add("c:spawning_not_supported", [
         noCapture,
-        "minecraft:evoker"
+        "minecraft:evoker",
+        "minecraft:elder_guardian",
     ])
 
     // No farming for Ars Nouveau Drygmy
