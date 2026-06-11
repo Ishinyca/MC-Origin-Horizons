@@ -4,5 +4,5 @@
   "keep_structures_in_original_dimensions": false,
   "disable_respawn": false,
   "enable_teleport_eye": true,
-  "reset_dimension_if_no_player": true
+  "reset_dimension_if_no_player": false
 }
