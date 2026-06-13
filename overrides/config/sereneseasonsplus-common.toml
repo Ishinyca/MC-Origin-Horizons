@@ -24,7 +24,7 @@
 	#Maximum total snow layers allowed per column (8 layers = 1 block). Default 24 = 3 blocks.
 	# Default: 24
 	# Range: 0 ~ 512
-	maxSnowAccumulationLayers = 3
+	maxSnowAccumulationLayers = 1
 
 [seasonSync]
 	#Lock seasons to current Canadian calendar months (Eastern time).
@@ -43,3 +43,5 @@
 	# Default: 1.0
 	# Range: 0.05 ~ 100.0
 	customNightLength = 1.0
+	#Allow Serene Seasons Plus to update Better Days daySpeed/nightSpeed at runtime using reflection. Disable this if you want Better Days to fully own time speed behavior.
+	enableBetterDaysDynamicTimeCompat = true
