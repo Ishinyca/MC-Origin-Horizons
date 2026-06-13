@@ -1,14 +1,25 @@
 ServerEvents.recipes(event => {
     // Stone Wand - Tier 1
-    event.recipes.ars_nouveau.imbuement(
-        'ars_nouveau:manipulation_essence',
-        'constructionwand:stone_wand',
-        500,
+    // event.recipes.ars_nouveau.imbuement(
+    //     'ars_nouveau:manipulation_essence',
+    //     'constructionwand:stone_wand',
+    //     500,
+    //     [
+    //         'minecraft:stick',
+    //         'minecraft:stick',
+    //         'minecraft:stone',
+    //     ]
+    // ).id('constructionwand:stone_wand')
+        event.recipes.ars_nouveau.enchanting_apparatus(
         [
             'minecraft:stick',
             'minecraft:stick',
-            'minecraft:stone',
-        ]
+            'minecraft:stone'
+        ],
+        'ars_nouveau:manipulation_essence',
+        'constructionwand:stone_wand',
+        500,
+        true // keep nbt of reagent
     ).id('constructionwand:stone_wand')
 
     // Iron Wand - Tier 2
