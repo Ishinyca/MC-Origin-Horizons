@@ -1202,35 +1202,33 @@
 		}
 		{
 			dependencies: ["24FF7BCAC7C31E44"]
+			icon: {
+				id: "minecraft:bee_nest"
+			}
 			icon_scale: 1.5d
 			id: "0E27EFC568902A57"
-			rewards: [
-				{
-					id: "42AD5C9F4252D65E"
-					item: {
-						count: 1
-						id: "magic_coins:gold_coin"
-					}
-					type: "item"
+			optional: true
+			rewards: [{
+				id: "7FF5D6CC802875F1"
+				item: {
+					count: 1
+					id: "magic_coins:silver_coin"
 				}
-				{
-					id: "4AD7AF821C3A5581"
-					item: {
-						count: 1
-						id: "minecraft:honey_bottle"
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
 				icon: {
 					id: "minecraft:bee_nest"
 				}
-				id: "0E63FF12868AA09E"
-				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:bee_nest)item(minecraft:beehive))", "minecraft:custom_name": "\"Bee Nest / Beehive\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
+				id: "6C8630AC3C430152"
+				observation_type: "block"
+				observe_type: 0
+				optional_task: true
+				timer: 0L
+				to_observe: "minecraft:bee_nest"
+				type: "observation"
 			}]
 			x: 2.25d
 			y: -2.75d

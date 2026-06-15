@@ -1,0 +1,1694 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "productive_bees"
+	group: "2A5D074FFC415AEC"
+	icon: {
+		id: "minecraft:honeycomb"
+	}
+	id: "6F5C3027230BCE90"
+	images: [{
+		height: 2.0d
+		image: "ftbquests:textures/chapter_names/productive_bees.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: 0.0d
+		y: -1.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["706A9B4C86DCFE2C"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:honeycomb"
+			}
+			id: "2A295BC0437A390B"
+			rewards: [
+				{
+					id: "4AB0BBE5ED10A506"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1DB97A7A63E56319"
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
+					type: "item"
+				}
+				{
+					id: "7D2235854443F861"
+					item: {
+						count: 1
+						id: "minecraft:honey_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "664A1CA5B6328E01"
+					item: { count: 1, id: "minecraft:honeycomb" }
+					type: "item"
+				}
+				{
+					id: "06B14A89B10A2CCF"
+					item: { count: 1, id: "minecraft:honey_bottle" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A295BC0437A390B"]
+			id: "74DD5F3D19BEAF1A"
+			rewards: [
+				{
+					id: "7F255F90C752F4DF"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "788F949B455E86F3"
+					item: {
+						count: 1
+						id: "productivebees:bee_cage"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "7929516A4EE32F2C"
+				item: { count: 1, id: "productivebees:bee_cage" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "706A9B4C86DCFE2C"
+			rewards: [
+				{
+					id: "1649387F7D546996"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "54019E4F438A74A9"
+					item: {
+						count: 1
+						id: "minecraft:honey_bottle"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09C9754B4EB110B3"
+				item: { count: 1, id: "productivebees:nest_locator" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["74DD5F3D19BEAF1A"]
+			id: "1BB30CE30B141512"
+			rewards: [
+				{
+					id: "7DCFA733EF49855A"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2263D8105DFFFA77"
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1DE8B70A58E66762"
+				item: { count: 1, id: "minecraft:beehive" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["59E0F2D1385913F7"]
+			id: "1B7DFD32C58195F9"
+			optional: true
+			rewards: [
+				{
+					id: "0C8C4A8DA4B13026"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7925E777B3C6782B"
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D2BF2C65E4001FA"
+				item: { count: 1, id: "productivebees:feeder" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["59E0F2D1385913F7"]
+			id: "6C3E72E5C038CACB"
+			optional: true
+			rewards: [
+				{
+					id: "35D8891AA3EFD86B"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "3C7E1236652B3CD3"
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "123786EF06619A3F"
+				item: { count: 1, id: "minecraft:sponge" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["59E0F2D1385913F7"]
+			icon: {
+				id: "productivebees:expansion_box_oak"
+			}
+			id: "45BC984DBF0D2DC3"
+			rewards: [
+				{
+					id: "2A1725F72F79CD0E"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7899F0F5F9798B0B"
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "216AA78BB74C12FD"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivebees:expansion_boxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1BB30CE30B141512"]
+			icon: {
+				id: "productivebees:advanced_oak_beehive"
+			}
+			id: "59E0F2D1385913F7"
+			rewards: [
+				{
+					id: "24BB927844E51BFC"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7254FE4A86568AE2"
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "36A517575551F986"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivebees:advanced_beehives)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["59E0F2D1385913F7"]
+			id: "235BC5DB847A5535"
+			rewards: [
+				{
+					id: "5F21ADC5D652E839"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "73C37911D9BA8FEE"
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C55A7C0BF1AFACD"
+				item: { count: 1, id: "productivebees:centrifuge" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["59E0F2D1385913F7"]
+			icon_scale: 1.15d
+			id: "25A138DD552AB15A"
+			rewards: [
+				{
+					id: "553A2BD9927544B5"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "20967FE22E609782"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "54D4E3E389175318"
+				item: { count: 1, id: "productivebees:honey_treat" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["25A138DD552AB15A"]
+			hide_dependent_lines: true
+			id: "753E63ACCAFB693B"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "0F52A5921D877691"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["753E63ACCAFB693B"]
+			id: "52E75678859A2452"
+			rewards: [
+				{
+					id: "5FF4C397C43AC85F"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2A5CB1F229F7E16B"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5D9038E46C378B8F"
+				item: { count: 1, id: "productivebees:coarse_dirt_nest" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["753E63ACCAFB693B"]
+			icon: {
+				id: "productivebees:oak_wood_nest"
+			}
+			id: "125DA4AEF6A12589"
+			rewards: [
+				{
+					id: "057531163774C9C9"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "53A37423670F888C"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6A5CBAE7F267C4C1"
+				item: { components: { "ftbfiltersystem:filter": "or(item(productivebees:oak_wood_nest)item(productivebees:dark_oak_wood_nest)item(productivebees:jungle_wood_nest)item(productivebees:spruce_wood_nest)item(productivebees:birch_wood_nest)item(productivebees:acacia_wood_nest)item(productivebees:cherry_wood_nest)item(productivebees:mangrove_wood_nest)item(productivebees:bamboo_hive))", "minecraft:custom_name": "\"Wood Nests\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["753E63ACCAFB693B"]
+			id: "10A829B95DAE0617"
+			rewards: [
+				{
+					id: "6232E363D7D4433E"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7FB97603D46C1E80"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6D277EEEBC62F5DC"
+				item: { count: 1, id: "productivebees:stone_nest" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["753E63ACCAFB693B"]
+			id: "4F126B98C595B473"
+			rewards: [
+				{
+					id: "2054CBF67A0D2573"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7B764B10520BA6F8"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3CB046FE69C62AC8"
+				item: { count: 1, id: "productivebees:sand_nest" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["753E63ACCAFB693B"]
+			id: "311FE4747E279688"
+			rewards: [
+				{
+					id: "5738202D0FA8B4FC"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "636E685002390960"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5BB46855E94DCB7C"
+				item: { count: 1, id: "productivebees:gravel_nest" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["753E63ACCAFB693B"]
+			id: "2CC8284CA37DBDFE"
+			rewards: [
+				{
+					id: "578A66D32806256A"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5626A6FFA31A9AB2"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0DCFE5C6C33FFCED"
+				item: { count: 1, id: "productivebees:slimy_nest" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["753E63ACCAFB693B"]
+			id: "49D85168F1626D02"
+			rewards: [
+				{
+					id: "64FAF902F3C47452"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "06040E6290B02888"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2E5C9C21C4C7D553"
+				item: { count: 1, id: "productivebees:sugar_cane_nest" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["753E63ACCAFB693B"]
+			id: "49E8EF1F1D1BBE30"
+			rewards: [
+				{
+					id: "39F03F66946E3BDC"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "029201A03E0DA809"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5902F5B9D517E683"
+				item: { count: 1, id: "productivebees:snow_nest" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["753E63ACCAFB693B"]
+			id: "01B52FF6AD3C3F6F"
+			rewards: [
+				{
+					id: "2E908B94D16CC0BF"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "178A6075339D09DC"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "31559C0EE3A1B585"
+				item: { count: 1, id: "productivebees:glowstone_nest" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["753E63ACCAFB693B"]
+			id: "531AD2DCFCAB1301"
+			rewards: [
+				{
+					id: "7317F27484EC8A7F"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "072C61B94242B2B0"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5EDA9E7135E32A13"
+				item: { count: 1, id: "productivebees:nether_brick_nest" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["753E63ACCAFB693B"]
+			id: "19F0AB047C0E779B"
+			rewards: [
+				{
+					id: "4BD8320E194F8BA8"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "284C18E06B67DB9E"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5C14B4D1DCD22907"
+				item: { count: 1, id: "productivebees:nether_quartz_nest" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["753E63ACCAFB693B"]
+			id: "52A53BE0E0E32E1A"
+			rewards: [
+				{
+					id: "5537D1CA8644EC5E"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6F355052DE6E2020"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "52FFC548B85CCE2A"
+				item: { count: 1, id: "productivebees:obsidian_nest" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["753E63ACCAFB693B"]
+			id: "18FF1ED6634F19F5"
+			rewards: [
+				{
+					id: "529346035F31ADB0"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "7B1B8BB358016996"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6B41C5EC14D15C17"
+				item: { count: 1, id: "productivebees:end_stone_nest" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["753E63ACCAFB693B"]
+			id: "0C988C27B7E239A6"
+			rewards: [
+				{
+					id: "224B39F6DB1EAC28"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "4DBE9E3C714BD023"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7C48CC20069ADDB8"
+				item: { count: 1, id: "productivebees:soul_sand_nest" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["753E63ACCAFB693B"]
+			id: "5241A400EF7D5220"
+			rewards: [
+				{
+					id: "3FB2ABE9921FCBCA"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "517AAB933C89D506"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C10E3B8F46756EB"
+				item: { count: 1, id: "productivebees:nether_gold_nest" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["25A138DD552AB15A"]
+			hide_dependent_lines: true
+			id: "007CCB5FA0ECD943"
+			optional: true
+			shape: "hexagon"
+			tasks: [{
+				id: "4607A3671BC1969F"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7E3C188553980DC3"]
+			id: "1DCAE56A088AD3B2"
+			rewards: [
+				{
+					id: "4E1F1CB4904A11FF"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "37FA06B72FE0F0FD"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5D8DC32273450DD4"
+				item: { components: { "productivebees:bee_type": "productivebees:copper" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["7E3C188553980DC3"]
+			id: "348BC9D027F1ED7A"
+			rewards: [
+				{
+					id: "66C15971336DFCC3"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "60365DBC51C95ED5"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5917D0E56F3BABA1"
+				item: { components: { "productivebees:bee_type": "productivebees:iron" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7E3C188553980DC3"]
+			id: "4E2AAFC8357602D7"
+			rewards: [
+				{
+					id: "38760018803E9C3D"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "12835DC3B8496686"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "79440AD3F52E11FE"
+				item: { components: { "productivebees:bee_type": "productivebees:gold" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0EB43099471DFF83"]
+			id: "2F7D8B26644B0081"
+			rewards: [
+				{
+					id: "6312B15709F90B1D"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0D1D7635150DB0C1"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7ED6032E6DD7B363"
+				item: { components: { "productivebees:bee_type": "productivebees:lapis" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["1F14F407957E52E0"]
+			id: "0EB43099471DFF83"
+			rewards: [
+				{
+					id: "041D2C997D0DD4C4"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "25F6E826792D7D14"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7EBD2F266B9EE713"
+				item: { components: { "productivebees:bee_type": "productivebees:redstone" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"349A946B0D0EAA7A"
+				"08EF24A0A258BE12"
+			]
+			id: "4544544B334D18B7"
+			rewards: [
+				{
+					id: "4C412B0AE10EB560"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "07FEA72E859FE3B0"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "10B86D6D53FC8E6D"
+				item: { components: { "productivebees:bee_type": "productivebees:emerald" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2F7D8B26644B0081"
+				"66075337D41BA744"
+			]
+			id: "08EF24A0A258BE12"
+			rewards: [
+				{
+					id: "6B06CC60BD91F10F"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "76253ADF1144DA2B"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6749B6ABEE9F21DB"
+				item: { components: { "productivebees:bee_type": "productivebees:diamond" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["08EF24A0A258BE12"]
+			id: "2D46A2B24D1C849E"
+			rewards: [
+				{
+					id: "0CFAF09B233AEDA8"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "33937A5161903476"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "33C77CA1AD67EC6C"
+				item: { components: { "productivebees:bee_type": "productivebees:netherite" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["007CCB5FA0ECD943"]
+			id: "66075337D41BA744"
+			rewards: [
+				{
+					id: "4C371D6CC81F622E"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "0F83BFA2671893D6"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "33B6BBE3A31604A4"
+				item: { components: { "productivebees:bee_type": "productivebees:ender" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["007CCB5FA0ECD943"]
+			id: "1F14F407957E52E0"
+			rewards: [
+				{
+					id: "1AE1578E2ED019DF"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "56B7753CA65F713C"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "56F8B05CD31D4DC9"
+				item: { components: { "productivebees:bee_type": "productivebees:glowing" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["007CCB5FA0ECD943"]
+			id: "349A946B0D0EAA7A"
+			rewards: [
+				{
+					id: "228D30730D3B20A3"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "37EA181955EF8D20"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4F8088DEBE56EB31"
+				item: { components: { "productivebees:bee_type": "productivebees:slimy" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["007CCB5FA0ECD943"]
+			id: "7E3C188553980DC3"
+			rewards: [
+				{
+					id: "40FD6A980622743B"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "40B09E50F3B4871D"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5CF20619C1524EC7"
+				item: { components: { "productivebees:bee_type": "productivebees:crystalline" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			id: "69A915B75BA9E827"
+			rewards: [
+				{
+					id: "163B8EFB33CC624E"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "37412DB66B940F06"
+					item: {
+						count: 1
+						id: "productivelib:upgrade_base"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "598B3E535E845823"
+				item: { count: 1, id: "productivelib:upgrade_base" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["69A915B75BA9E827"]
+			id: "69BF89061F51AD7C"
+			rewards: [{
+				id: "2591A950EF1977AA"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E3FF2CF7E2CCA05"
+				item: { count: 1, id: "productivelib:upgrade_time" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["69BF89061F51AD7C"]
+			id: "5BD15C204CFDFBDC"
+			rewards: [{
+				id: "7E87A74196BC89DE"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6341D9AF1190403D"
+				item: { count: 1, id: "productivelib:upgrade_time_2" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["69A915B75BA9E827"]
+			id: "33F9D0549AF17169"
+			rewards: [{
+				id: "27A491063771C972"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5DF7AE15B25035EA"
+				item: { count: 1, id: "productivelib:upgrade_range" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["69A915B75BA9E827"]
+			id: "4E8B4CA24E4B68A3"
+			rewards: [{
+				id: "7501A700C8F98674"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B48E080FB556206"
+				item: { count: 1, id: "productivelib:upgrade_gene_sampler" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["69A915B75BA9E827"]
+			id: "0E472A23CC3CB376"
+			rewards: [{
+				id: "6EE7CF0FF13026CE"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0382B8BC1B090EC7"
+				item: { count: 1, id: "productivelib:upgrade_entity_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["69A915B75BA9E827"]
+			id: "29A8BF4336CA8416"
+			rewards: [{
+				id: "50527F370BF2AA61"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4A6E1ACAC8C3D0A6"
+				item: { count: 1, id: "productivelib:upgrade_productivity" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["69A915B75BA9E827"]
+			id: "26AF763E963B080C"
+			rewards: [{
+				id: "00665C298BA9171A"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F929D9E261291BF"
+				item: { count: 1, id: "productivelib:upgrade_block" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["69A915B75BA9E827"]
+			id: "0B2EE20258C51A1D"
+			rewards: [{
+				id: "0B8C1F09E0EFD03B"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2DA9ABFCD7C69A47"
+				item: { count: 1, id: "productivelib:upgrade_child" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["69A915B75BA9E827"]
+			id: "30E7EDB4FDA27A04"
+			rewards: [{
+				id: "3E9229C5BFAE277E"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "171AA47F36A3A0DC"
+				item: { count: 1, id: "productivelib:upgrade_anti_teleport" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["30E7EDB4FDA27A04"]
+			id: "1BEF7A0EA1AA7F22"
+			rewards: [{
+				id: "092A4489CED4DE46"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6B3FC5BA821ABC97"
+				item: { count: 1, id: "productivelib:upgrade_simulator" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["29A8BF4336CA8416"]
+			id: "4E2F24665AE6B7D4"
+			rewards: [{
+				id: "242885D3EAC9340B"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "66803BB64142D3A9"
+				item: { count: 1, id: "productivelib:upgrade_productivity_2" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["4E2F24665AE6B7D4"]
+			id: "471D81F709443A67"
+			rewards: [{
+				id: "7C84E84B50CBEA46"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3D41423613723F67"
+				item: { count: 1, id: "productivelib:upgrade_productivity_3" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["471D81F709443A67"]
+			id: "33EA58157D5B9FFB"
+			rewards: [{
+				id: "3ABD53B42DE3C27D"
+				item: {
+					count: 1
+					id: "magic_coins:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "20CC57CEF5BEF516"
+				item: { count: 1, id: "productivelib:upgrade_productivity_4" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["59E0F2D1385913F7"]
+			hide_dependency_lines: true
+			id: "67E3F668F00641E1"
+			rewards: [
+				{
+					id: "53D9A3C8DDA06010"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "24A2EE6F9E3A07D1"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "324181C9DED0F38C"
+				item: { count: 1, id: "productivebees:breeding_chamber" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["59E0F2D1385913F7"]
+			hide_dependency_lines: true
+			id: "56AB117682CB0343"
+			rewards: [
+				{
+					id: "0FDAA60BFB57B180"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "201C6C81F1E25598"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "301A65E30384AB6C"
+				item: { count: 1, id: "productivebees:gene_indexer" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["59E0F2D1385913F7"]
+			hide_dependency_lines: true
+			id: "16250B2C9998ADE2"
+			rewards: [
+				{
+					id: "4A3811C3556F7BD6"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2A27910215069564"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2686039C6484482F"
+				item: { count: 1, id: "productivebees:bottler" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["59E0F2D1385913F7"]
+			hide_dependency_lines: true
+			id: "1AEA64C8EE62CA6C"
+			rewards: [
+				{
+					id: "632CBE1465CB0614"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6707C98B521E6937"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "67D191D4A3DE352C"
+				item: { count: 1, id: "productivebees:jar_oak" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["59E0F2D1385913F7"]
+			hide_dependency_lines: true
+			id: "4B2F96D204E4A3F4"
+			rewards: [
+				{
+					id: "051E72DE175C29CE"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "06C0DB8BEB0F9042"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2761A5E20E42CCB8"
+				item: { count: 1, id: "productivebees:incubator" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["59E0F2D1385913F7"]
+			hide_dependency_lines: true
+			id: "3B63821DF23FEC62"
+			rewards: [
+				{
+					id: "6C66152C3394D692"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "03B4266D2052035B"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6B4245EEEACE9979"
+				item: { count: 1, id: "productivebees:catcher" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["16250B2C9998ADE2"]
+			id: "270DCE023699253A"
+			rewards: [
+				{
+					id: "48311C630C9D1BED"
+					item: {
+						count: 1
+						id: "magic_coins:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2942F83DACBC67F0"
+					item: {
+						count: 1
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "17C116F9109A5E40"
+				item: { components: { "ftbfiltersystem:filter": "or(item(productivebees:gene))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 13.0d
+		}
+	]
+}

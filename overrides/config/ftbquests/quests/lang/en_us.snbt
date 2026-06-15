@@ -27,6 +27,7 @@
 	chapter.646C49F0E98F631C.title: "&2Chapter 3&r: &4Nether"
 	chapter.664F9EC033517D41.title: "&2Chapter 5&r: &7Going Deeper"
 	chapter.6B8F3905646E08FF.title: "Create"
+	chapter.6F5C3027230BCE90.title: "Productive Bees"
 	chapter.6FFABDFD87AB00E7.title: "Immersive Engineering"
 	chapter.7C8FE622908925D0.title: "Applied Energistics 2"
 	chapter_group.131C2868EBD0FC7F.title: "Technology"
@@ -45,6 +46,7 @@
 		"&lNOTE:&r There are blacklisted items that &9Cardboard Box&r cannot pick up like Spawners!"
 	]
 	quest.0059185330135D4D.quest_subtitle: "Moving Day!"
+	quest.007CCB5FA0ECD943.quest_desc: ["Only going to cover the everyday resources like the vanilla ingots and stuff. If you need other resources, you can follow the entire JEI line of a specific bee to obtain the resource."]
 	quest.01D8FDF4AC637C7B.quest_subtitle: "EVEN BETTER ARMOR?!"
 	quest.01D8FDF4AC637C7B.title: "&cBasic Survival Part IV"
 	quest.0211210857DE6FE8.quest_desc: [
@@ -98,8 +100,11 @@
 		"&6Beeeeeeeeeeees.&r"
 		""
 		"This modpack does have &lProductive Bees&r. So, if you want some infinite resources, go do Bees stuff!"
+		""
+		"[ \"Check out the \", { \"text\": \"Productive Bees\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2A295BC0437A390B\" } }, \" chapter on how to get started\" ]"
 	]
 	quest.0E27EFC568902A57.quest_subtitle: "BEES?!"
+	quest.0E27EFC568902A57.title: "Bee Nest"
 	quest.0F528DF3E49E8E2C.quest_desc: ["The best translator for your clues."]
 	quest.0FF8FC3C52D883C5.quest_subtitle: "EVEN BETTER WEAPON?!"
 	quest.0FF8FC3C52D883C5.title: "&cStronger Weapon"
@@ -118,6 +123,7 @@
 		"Max Blocks: 512"
 	]
 	quest.11BF177715DA1EF5.quest_subtitle: "Tier 4 Wand"
+	quest.125DA4AEF6A12589.title: "Wood Nests"
 	quest.133FAEAEA2AB0EDB.quest_desc: [
 		"Do you seriously have trouble staying alive?"
 		""
@@ -229,6 +235,8 @@
 	quest.264A7101D7E4A02B.quest_desc: ["Some challenges to complete for now. There will be more in future updates!"]
 	quest.266FA3A4C523B744.quest_desc: ["Craft a Honey Compass to find the Cell maze."]
 	quest.266FA3A4C523B744.quest_subtitle: "Your first compass"
+	quest.270DCE023699253A.quest_subtitle: "Make The Best Bee Possible"
+	quest.270DCE023699253A.title: "Gene Samples"
 	quest.2730586227FD39BD.quest_desc: ["You can spend your coins to buy items at the shop! Shop inventory resets every 20 minutes on the dot."]
 	quest.2730586227FD39BD.quest_subtitle: "FINALLY GET TO USE COINS?!"
 	quest.274DB278E2C24C93.quest_desc: ["Just a simple coal generator from Just Dire Things mod."]
@@ -259,6 +267,7 @@
 		"&lTier 1&r: 8 slots, 255 items per slot."
 	]
 	quest.2A21D04BAEB4D694.quest_subtitle: "Hold a lot of stuff in one slot"
+	quest.2A295BC0437A390B.title: "Productive Bees"
 	quest.2A41C5B7BC1E20BE.quest_desc: [
 		"&bSophisticated Storage&r is slightly different in this pack in terms of obtaining it. You will need to go through &n&8Create&r&r assembly line to obtain the upgrade installer."
 		""
@@ -379,6 +388,7 @@
 	quest.43F89025223B0C8B.quest_subtitle: "Legally Kidnapping Villagers"
 	quest.44D115281B0BFB75.quest_desc: ["Whispers speak of a &9flying vessel&r that hovers above the world, shimmering with strange energy. Few dare approach, for those who return tell of eerie lights, warped corridors, and guardians not of this realm. Seek it out, if you dare—and uncover the secrets hidden within its metallic shell."]
 	quest.44D115281B0BFB75.quest_subtitle: "Find a Giant Mushroom"
+	quest.45BC984DBF0D2DC3.title: "Expansion Box"
 	quest.4791FC0A2E834D85.quest_desc: ["Dark magics linger in the depths of these dungeons, woven into items, halls, and even the very air. Power awaits the bold, but so do twisted fates for the careless."]
 	quest.4791FC0A2E834D85.quest_subtitle: "Find a Bathhouse"
 	quest.47C24A45C1053ABE.quest_desc: ["To start the entire process of &5&lMekanism&r, you will need to find Osmium Ore."]
@@ -428,6 +438,7 @@
 	quest.57F0537684B307E4.title: "Naga"
 	quest.5934F2C548EF06E1.quest_desc: ["Need an early game all in one solution for connecting your chests? Storage Lectern from Ars Nouveau is the best solution for this!"]
 	quest.59C7EEBB065BED24.quest_desc: ["Kill the Ender Dragon while wearing a full set of Bee Armor"]
+	quest.59E0F2D1385913F7.title: "Advanced Beehive"
 	quest.5A67053A72DDF02E.quest_desc: ["Some early game power transfer at your disposal"]
 	quest.5A67053A72DDF02E.title: "Early Power Transfer"
 	quest.5C12F4CC1F6F6C32.quest_desc: ["Looming among the clouds, this massive airship bristles with defenses and hostile crew. Phantom-mounted fiends circle overhead, while fish-like raiders astride hoglins stalk the decks. Boarding it is no small feat. Tthose who triumph will etch their name among the few who dared challenge the skies."]
@@ -481,6 +492,12 @@
 	quest.6858E25E510AE0FA.quest_desc: ["Drifting through the skies like a colossal squid, this otherworldly airship bristles with defenses. Phantom-riding monstrosities circle its hull, while fish-like warriors astride hoglins guard its decks. To face the Conqueror is to battle a skyborne legion. And only the strongest will claim victory."]
 	quest.6858E25E510AE0FA.quest_subtitle: "Find a Heavenly Conqueror"
 	quest.69A58CD42A9E2DFC.title: "End City"
+	quest.69A915B75BA9E827.quest_desc: [
+		"The Upgrade Base is used to craft various upgrades for Productive Bees."
+		""
+		"&lNOTE&r: Upgrade Base is shared with Productive Metalworks!"
+	]
+	quest.69A915B75BA9E827.quest_subtitle: "Shared with Productive"
 	quest.6A0237FADC519965.quest_desc: ["From a distance, it looks peaceful. Fields of golden wheat swaying beside a proud windmill. But don’t be deceived: the Illagers tend no crops for trade. Behind the rustic facade lies a nest of evil, their blades as sharp as the sickles they carry."]
 	quest.6A0237FADC519965.quest_subtitle: "Find an Illager Windmill"
 	quest.6BFE5D35265080E6.quest_desc: ["A sprawling underground stronghold, the Scorched Mines radiate in four cardinal directions from a central dome. Heat and shadows fill the tunnels, and danger lurks at every turn. Brave adventurers who navigate its branching paths may uncover riches, but only if they survive the hazards within."]
@@ -502,6 +519,13 @@
 	quest.7496D211FE9B5CFC.quest_desc: ["The First two tiers are pretty good for early game"]
 	quest.7496D211FE9B5CFC.quest_subtitle: "Just Dire Things?"
 	quest.7496D211FE9B5CFC.title: "JustDireThings Weapons"
+	quest.74DD5F3D19BEAF1A.title: "How to Capture Bees"
+	quest.753E63ACCAFB693B.quest_desc: [
+		"To start spawning &cBees&r, you must place the correct nest in specific biomes. You can look up this information in the JEI."
+		""
+		"To lure the bee to the nest, you right click with the &6Honey Treat&r on the nest."
+	]
+	quest.753E63ACCAFB693B.quest_subtitle: "Treats!"
 	quest.75746870BF6D716F.quest_desc: ["One-size-fits-all solution to hiding all of your cables!"]
 	quest.75746870BF6D716F.quest_subtitle: "Hide them cables!"
 	quest.76234127DB3339B8.quest_desc: [
@@ -553,12 +577,13 @@
 	task.0A95212173A95D79.title: "See Boss Chapter"
 	task.0B0F1CEA0B7B236E.title: "Farming Amethyst"
 	task.0BB83801884ABA1E.title: "Seriously, stay alive"
+	task.0F52A5921D877691.title: "Nest Spawning"
 	task.10B8E5E5AF97CD96.title: "Find The Underworld Knight"
 	task.123F1971244C94DF.title: "Just Dire Things"
 	task.14683BF3325CCCBD.title: "Death Wish"
 	task.15C136A804F4AEF2.title: "Naturally Spawning Amethyst Clusters"
 	task.167177018A9BC9C3.title: "Any #the_bumblezone:armors/chestplates"
-	task.18A88F07777EC3B9.title: "The Deeper Down"
+	task.17C116F9109A5E40.title: "Gene Sample"
 	task.19F86692B24A0E84.title: "Enter the Lich's Tower"
 	task.1A6C561E0AA32F2E.title: "Don't Count Your Moas"
 	task.1B160A5FDCAA2C73.title: "Logistical Transporter"
@@ -573,6 +598,7 @@
 	task.1F978E3CD3313150.title: "Beat the Gold Dungeon"
 	task.1FE24E556DBD8E67.title: "Budding Amethyst"
 	task.2152AF3371211140.title: "test"
+	task.216AA78BB74C12FD.title: "Any #productivebees:expansion_boxes"
 	task.220B502B0FCD9DB4.title: "How to Access The Nether Dimension"
 	task.224D501996D6FE7F.title: "Any #minecraft:flowers"
 	task.2295861BA7A8B6D5.title: "Ride the Black Moa"
@@ -588,6 +614,7 @@
 	task.33CED10B051A0D4B.title: "Defeat Scylla"
 	task.345B03FBFAF14788.title: "Any #the_bumblezone:tools/cannons"
 	task.34F4969BD470B7B5.title: "Chemical Tanks"
+	task.36A517575551F986.title: "Any #productivebees:advanced_beehives"
 	task.3744C2FC96AFDCC8.title: "&l&6When Dungeon Arises"
 	task.375FFF007F1133EA.title: "&6&lBounty:&r Kill 25x Spiders"
 	task.395FE2F733E46196.title: "Any #stellaris:can"
@@ -600,6 +627,7 @@
 	task.44A0D62F34D2D0EC.title: "Any Apotheosis Gem"
 	task.45B8A003723FFC26.title: "Collect flowers"
 	task.45BE21769F6F2148.title: "Defeat The Yeti"
+	task.4607A3671BC1969F.title: "Everyday Resources"
 	task.47E183BC174AE6B0.title: "More quests soonTM"
 	task.49AF099BFE7508A8.title: "More Dimensions?"
 	task.4AA57D50368ACC11.title: "Naga"
