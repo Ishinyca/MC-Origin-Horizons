@@ -100,9 +100,9 @@ const moltenOreIdRemoval = [
     'productivemetalworks:melting/raw_materials/steel', // 180 mb
     'productivemetalworks:melting/ores/steel', // 270 mb
     'productivemetalworks:melting/storage_blocxks/raw_steel', // 1620 mb
-
-    
 ]
+
+
 
 ServerEvents.recipes(event => {
 	moltenOreIdRemoval.forEach ( (recipeId) => {
