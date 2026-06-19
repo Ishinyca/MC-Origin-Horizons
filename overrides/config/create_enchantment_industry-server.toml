@@ -147,9 +147,6 @@
 		# Range: 0.0 ~ 0.5
 		experienceLanternPullForceMultiplier = 0.07500000298023224
 		#.
-		#Whether the Experience Lantern will drain experience from nearby Touhou Little Maid's maids (requires TLM mod).
-		experienceLanternDrainMaidExperience = true
-		#.
 		#The amount of liquid a Grindstone Drain can hold (mB).
 		#[@cui:RequiresReload:server]
 		# Default: 1000

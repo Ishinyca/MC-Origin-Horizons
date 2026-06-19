@@ -21,9 +21,9 @@
 	# Range: 1 ~ 200
 	soundNoveltyTimeTicks = 100
 	#Internal schema version for config migrations. Do not change.
-	# Default: 17
+	# Default: 18
 	# Range: > 0
-	configSchemaVersion = 17
+	configSchemaVersion = 18
 
 [player_action_sounds]
 	#[DEPRECATED as of 6.3.3] Moved to soundattract/server-rules.toml (SERVER config).

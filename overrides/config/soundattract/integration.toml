@@ -253,3 +253,87 @@
 		# Default: 5
 		# Range: 1 ~ 40
 		csgrenadesTrackerScanIntervalTicks = 5
+
+	#HotBath integration settings
+	[integration.hotbath]
+		#Enable optional HotBath integration for scent and camouflage wash behavior.
+		enableHotBathIntegration = true
+		#Target interval for refreshing each online player's HotBath scent/camo state. Work is spread across ticks.
+		# Default: 80
+		# Range: 1 ~ 24000
+		hotBathPollIntervalTicks = 80
+		#Scent multiplier at 100% HotBath dirtiness. Interpolates linearly from 1.0 when clean.
+		# Default: 2.0
+		# Range: 0.0 ~ 100.0
+		maxDirtyScentMultiplier = 2.0
+		#Fallback duration for bath aroma scent modifiers after bathing.
+		# Default: 2400
+		# Range: 0 ~ 72000
+		defaultBathAromaDurationTicks = 2400
+		#Built-in HotBath fluid scent modifiers. Format: 'fluid_id;scent_multiplier;duration_ticks'.
+		hotBathFluidScentModifiers = ["hotbath:hot_water_fluid;0.70;2400", "hotbath:milk_bath_fluid;0.45;3000", "hotbath:herbal_bath_fluid;0.55;3000", "hotbath:honey_bath_fluid;0.85;2400", "hotbath:peony_bath_fluid;0.80;2400", "hotbath:rose_bath_fluid;1.10;2400"]
+		#Bath aroma biome modifiers. Format: 'fluid_id;biome_id_or_#biome_tag;multiplier'.
+		hotBathBiomeScentModifiers = ["hotbath:herbal_bath_fluid;#minecraft:is_desert;1.35"]
+		#Gradual camo wash while standing in HotBath fluids. Format: 'fluid_id;skin_rate;armor_rate'. Values remove that fraction per poll.
+		hotBathCamoWashRates = ["hotbath:hot_water_fluid;0.08;0.08", "hotbath:milk_bath_fluid;0.05;0.05", "hotbath:herbal_bath_fluid;0.06;0.06", "hotbath:honey_bath_fluid;0.03;0.03", "hotbath:peony_bath_fluid;0.04;0.04", "hotbath:rose_bath_fluid;0.04;0.04"]
+		#Reserved for HotBath splash-style fluids when present. Format: 'fluid_id;skin_fraction;armor_fraction'.
+		hotBathSplashCamoWashRates = ["hotbath:hot_water_fluid;0.50;0.50", "hotbath:milk_bath_fluid;0.50;0.50", "hotbath:herbal_bath_fluid;0.50;0.50", "hotbath:honey_bath_fluid;0.40;0.40", "hotbath:peony_bath_fluid;0.45;0.45", "hotbath:rose_bath_fluid;0.45;0.45"]
+		#Custom HotBath datapack fluid scent modifiers. Format: 'fluid_id;scent_multiplier;duration_ticks'.
+		hotBathCustomFluidScentModifiers = []
+		#Custom HotBath datapack fluid camo wash rates. Format: 'fluid_id;skin_rate;armor_rate'.
+		hotBathCustomFluidCamoWashRates = []
+
+	#ToughAsNails integration settings
+	[integration.tough_as_nails]
+		#Enable ToughAsNails scent and sound integration.
+		enableToughAsNailsIntegration = true
+		#How often each player's ToughAsNails state is refreshed.
+		# Default: 40
+		# Range: 1 ~ 24000
+		toughAsNailsPollIntervalTicks = 40
+		#Scent multipliers by ToughAsNails temperature. Format: 'LEVEL;multiplier'.
+		temperatureScentMultipliers = ["ICY;0.75", "COLD;0.90", "NEUTRAL;1.00", "WARM;1.20", "HOT;1.50"]
+		#Scent multiplier while hyperthermia is active.
+		# Default: 1.4
+		# Range: 0.0 ~ 100.0
+		hyperthermiaScentMultiplier = 1.4
+		#Player-action sound multiplier while hyperthermia is active.
+		# Default: 1.15
+		# Range: 0.0 ~ 100.0
+		hyperthermiaSoundMultiplier = 1.15
+		#Scent multiplier when thirst is empty.
+		# Default: 1.25
+		# Range: 0.0 ~ 100.0
+		thirstScentMultiplierAtEmpty = 1.25
+		#Player-action sound multiplier when thirst is empty.
+		# Default: 1.1
+		# Range: 0.0 ~ 100.0
+		thirstSoundMultiplierAtEmpty = 1.1
+		#Sound multiplier for each worn wool armor piece.
+		# Default: 0.92
+		# Range: 0.0 ~ 100.0
+		woolArmorSoundMultiplierPerPiece = 0.92
+		#Lowest sound multiplier from wool armor.
+		# Default: 0.7
+		# Range: 0.0 ~ 100.0
+		woolArmorMinimumSoundMultiplier = 0.7
+		#Scent multiplier for each wool piece while warm.
+		# Default: 1.05
+		# Range: 0.0 ~ 100.0
+		woolWarmScentMultiplierPerPiece = 1.05
+		#Scent multiplier for each wool piece while hot.
+		# Default: 1.1
+		# Range: 0.0 ~ 100.0
+		woolHotScentMultiplierPerPiece = 1.1
+		#Highest scent multiplier from hot wool armor.
+		# Default: 1.6
+		# Range: 0.0 ~ 100.0
+		woolHeatMaximumScentMultiplier = 1.6
+		#Scent multiplier for each worn leaf armor piece.
+		# Default: 0.97
+		# Range: 0.0 ~ 100.0
+		leafArmorScentMultiplierPerPiece = 0.97
+		#Lowest scent multiplier from leaf armor.
+		# Default: 0.9
+		# Range: 0.0 ~ 100.0
+		leafArmorMinimumScentMultiplier = 0.9

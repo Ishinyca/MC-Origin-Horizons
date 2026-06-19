@@ -149,7 +149,7 @@
 			environmentalMismatchThreshold = 100
 			environmentalCamouflageOnlyDyedLeather = false
 			#Custom armor colors for camouflage mismatch calculations. Format: 'modid:item_id;#RRGGBB'
-			customArmorColors = ["minecraft:leather_helmet;#804F27", "minecraft:leather_chestplate;#804F27", "minecraft:leather_leggings;#804F27", "minecraft:leather_boots;#804F27", "minecraft:chainmail_helmet;#58585A", "minecraft:chainmail_chestplate;#58585A", "minecraft:chainmail_leggings;#58585A", "minecraft:chainmail_boots;#58585A", "minecraft:iron_helmet;#CACACA", "minecraft:iron_chestplate;#CACACA", "minecraft:iron_leggings;#CACACA", "minecraft:iron_boots;#CACACA", "minecraft:golden_helmet;#F5E54C", "minecraft:golden_chestplate;#F5E54C", "minecraft:golden_leggings;#F5E54C", "minecraft:golden_boots;#F5E54C", "minecraft:diamond_helmet;#39D5CD", "minecraft:diamond_chestplate;#39D5CD", "minecraft:diamond_leggings;#39D5CD", "minecraft:diamond_boots;#39D5CD", "minecraft:netherite_helmet;#403B3B", "minecraft:netherite_chestplate;#403B3B", "minecraft:netherite_leggings;#403B3B", "minecraft:netherite_boots;#403B3B", "minecraft:turtle_helmet;#7B8834"]
+			customArmorColors = ["minecraft:leather_helmet;#804F27", "minecraft:leather_chestplate;#804F27", "minecraft:leather_leggings;#804F27", "minecraft:leather_boots;#804F27", "minecraft:chainmail_helmet;#58585A", "minecraft:chainmail_chestplate;#58585A", "minecraft:chainmail_leggings;#58585A", "minecraft:chainmail_boots;#58585A", "minecraft:iron_helmet;#CACACA", "minecraft:iron_chestplate;#CACACA", "minecraft:iron_leggings;#CACACA", "minecraft:iron_boots;#CACACA", "minecraft:golden_helmet;#F5E54C", "minecraft:golden_chestplate;#F5E54C", "minecraft:golden_leggings;#F5E54C", "minecraft:golden_boots;#F5E54C", "minecraft:diamond_helmet;#39D5CD", "minecraft:diamond_chestplate;#39D5CD", "minecraft:diamond_leggings;#39D5CD", "minecraft:diamond_boots;#39D5CD", "minecraft:netherite_helmet;#403B3B", "minecraft:netherite_chestplate;#403B3B", "minecraft:netherite_leggings;#403B3B", "minecraft:netherite_boots;#403B3B", "minecraft:turtle_helmet;#7B8834", "toughasnails:leaf_helmet;#48B518", "toughasnails:leaf_chestplate;#48B518", "toughasnails:leaf_leggings;#48B518", "toughasnails:leaf_boots;#48B518", "toughasnails:wool_helmet;#FFFFFF", "toughasnails:wool_chestplate;#FFFFFF", "toughasnails:wool_leggings;#FFFFFF", "toughasnails:wool_boots;#FFFFFF"]
 			# Default: 1
 			# Range: 0 ~ 3
 			envColorSampleRadius = 1
@@ -159,6 +159,44 @@
 			# Default: -1
 			# Range: -2 ~ 2
 			envColorSampleYOffsetEnd = -1
+			#Environmental color sampler: average_area, viewer_backdrop, or hybrid.
+			environmentalCamouflageSamplingMode = "hybrid"
+			#How far behind the target to look for backdrop blocks.
+			# Default: 4
+			# Range: 1 ~ 16
+			envBackdropMaxDistance = 4
+			#How many target silhouette rays to sample.
+			# Default: 5
+			# Range: 1 ~ 5
+			envBackdropSampleRays = 5
+			#Minimum backdrop hits needed for a color.
+			# Default: 2
+			# Range: 1 ~ 5
+			envBackdropMinSamples = 2
+			#Nearby mobs in the same cell share backdrop results.
+			# Default: 6
+			# Range: 1 ~ 64
+			envBackdropViewerCellSize = 6
+			#How long backdrop color results stay fresh.
+			# Default: 2
+			# Range: 1 ~ 200
+			envBackdropCacheTtlTicks = 2
+			#Below this TPS, use the cheaper sampler.
+			# Default: 17.0
+			# Range: 1.0 ~ 20.0
+			envBackdropMinTps = 17.0
+			#TPS needed before backdrop sampling resumes.
+			# Default: 18.5
+			# Range: 1.0 ~ 20.0
+			envBackdropRecoveryTps = 18.5
+			#Use sky color when the backdrop is open sky.
+			envBackdropUseSkyColor = true
+			#Backdrop color for clear daytime sky.
+			envBackdropDaySkyColor = "#77ADFF"
+			#Backdrop color for night sky.
+			envBackdropNightSkyColor = "#0B1026"
+			#Backdrop color for rain and thunder sky.
+			envBackdropRainSkyColor = "#596772"
 
 		[sound_attract_stealth.camouflage_system.layered_camouflage]
 			enableLayeredCamouflage = true
