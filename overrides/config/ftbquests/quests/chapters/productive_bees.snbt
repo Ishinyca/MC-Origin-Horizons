@@ -841,8 +841,8 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				id: "5D8DC32273450DD4"
-				item: { components: { "productivebees:bee_type": "productivebees:copper" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				id: "25AAE00B621900FB"
+				item: { components: { "productivebees:bee_type": "productivebees:copper" }, count: 1, id: "productivebees:configurable_comb" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -871,8 +871,8 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				id: "5917D0E56F3BABA1"
-				item: { components: { "productivebees:bee_type": "productivebees:iron" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				id: "219C960D5EA25724"
+				item: { components: { "productivebees:bee_type": "productivebees:iron" }, count: 1, id: "productivebees:configurable_comb" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -901,8 +901,8 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				id: "79440AD3F52E11FE"
-				item: { components: { "productivebees:bee_type": "productivebees:gold" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				id: "49FEB6B70E81DFB4"
+				item: { components: { "productivebees:bee_type": "productivebees:gold" }, count: 1, id: "productivebees:configurable_comb" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -931,8 +931,8 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				id: "7ED6032E6DD7B363"
-				item: { components: { "productivebees:bee_type": "productivebees:lapis" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				id: "741212A19504AC39"
+				item: { components: { "productivebees:bee_type": "productivebees:lapis" }, count: 1, id: "productivebees:configurable_comb" }
 				type: "item"
 			}]
 			x: -6.5d
@@ -961,8 +961,8 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				id: "7EBD2F266B9EE713"
-				item: { components: { "productivebees:bee_type": "productivebees:redstone" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				id: "2AF2245DF5F0C00A"
+				item: { components: { "productivebees:bee_type": "productivebees:redstone" }, count: 1, id: "productivebees:configurable_comb" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -994,8 +994,8 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				id: "10B86D6D53FC8E6D"
-				item: { components: { "productivebees:bee_type": "productivebees:emerald" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				id: "426B4D112CCEC967"
+				item: { components: { "productivebees:bee_type": "productivebees:emerald" }, count: 1, id: "productivebees:configurable_comb" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -1027,8 +1027,8 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				id: "6749B6ABEE9F21DB"
-				item: { components: { "productivebees:bee_type": "productivebees:diamond" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				id: "35CB896F19F8FB78"
+				item: { components: { "productivebees:bee_type": "productivebees:diamond" }, count: 1, id: "productivebees:configurable_comb" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -1057,8 +1057,8 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				id: "33C77CA1AD67EC6C"
-				item: { components: { "productivebees:bee_type": "productivebees:netherite" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				id: "3FCA045E8DF1672E"
+				item: { components: { "productivebees:bee_type": "productivebees:netherite" }, count: 1, id: "productivebees:configurable_comb" }
 				type: "item"
 			}]
 			x: -7.0d
@@ -1087,8 +1087,8 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				id: "33B6BBE3A31604A4"
-				item: { components: { "productivebees:bee_type": "productivebees:ender" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				id: "0E9FFE32D94DCF03"
+				item: { components: { "productivebees:bee_type": "productivebees:ender" }, count: 1, id: "productivebees:configurable_comb" }
 				type: "item"
 			}]
 			x: -6.5d
@@ -1117,8 +1117,8 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				id: "56F8B05CD31D4DC9"
-				item: { components: { "productivebees:bee_type": "productivebees:glowing" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				id: "5CE0E096D831B771"
+				item: { components: { "productivebees:bee_type": "productivebees:glowing" }, count: 1, id: "productivebees:configurable_comb" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -1147,8 +1147,8 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				id: "4F8088DEBE56EB31"
-				item: { components: { "productivebees:bee_type": "productivebees:slimy" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				id: "6FF35A6AF4E37B0E"
+				item: { components: { "productivebees:bee_type": "productivebees:slimy" }, count: 1, id: "productivebees:configurable_comb" }
 				type: "item"
 			}]
 			x: -4.5d
@@ -1177,8 +1177,8 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				id: "5CF20619C1524EC7"
-				item: { components: { "productivebees:bee_type": "productivebees:crystalline" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				id: "67B668972B5CA82D"
+				item: { components: { "productivebees:bee_type": "productivebees:crystalline" }, count: 1, id: "productivebees:configurable_comb" }
 				type: "item"
 			}]
 			x: -4.0d
