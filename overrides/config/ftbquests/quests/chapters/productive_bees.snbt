@@ -19,7 +19,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["706A9B4C86DCFE2C"]
 			disable_toast: true
 			icon: {
 				id: "minecraft:honeycomb"
@@ -98,6 +97,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["2A295BC0437A390B"]
 			id: "706A9B4C86DCFE2C"
 			rewards: [
 				{
